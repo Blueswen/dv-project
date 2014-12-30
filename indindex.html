@@ -1,0 +1,103 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<title>EDACS</title>
+	<script src="http://code.jquery.com/jquery-1.11.0.min.js"></script>
+	<script src="js/d3.min.js" charset="utf-8"></script>
+	<!--script src="js/d3.min.js"></script-->
+	<script src="js/topojson.js"></script>
+	<!-- jQuery ui -->
+	<script src="js/jquery-ui-1.10.4.min.js"></script>
+	<link href="css/ui-lightness/jquery-ui-1.10.4.css" rel="stylesheet">
+	<!-- qtip2 -->
+	<script src="qtip/jquery.qtip.js"></script>
+	<link rel="stylesheet" type="text/css" href="qtip/jquery.qtip.css">
+	<!-- nv.d3 -->
+	<script src="js/nv.d3.js"></script>
+	<link rel="stylesheet" type="text/css" href="css/nv.d3.css">
+	<style type="text/css">
+		.chart svg {
+			height: 400px;
+			width: 800px;
+		}
+		#map{
+			width: 600px;
+			height: 600px;
+			border: 1px solid;
+			border-radius: 5px;
+			margin: 10px;
+			float: left;
+		}
+		#map path{
+			stroke-width:1;
+			stroke:black;
+		}
+		#map path:hover {
+			stroke-width:4;
+			stroke:blue;
+		}
+	</style>
+</head>
+<body>
+<h1>Welcome</h1>
+<svg id="map"></svg>
+<div class="chart" id="linechart">
+	<svg></svg>
+</div>
+<div class="chart" id="barchart">
+	<svg></svg>
+</div>
+<div class="chart" id="piechart">
+	<svg></svg>
+</div>
+<script type="text/javascript">
+	var topo;
+	var dataset = [],
+			timelist = [],
+			arealist = [];
+	var targer = "土地面積";
+	var indindex = [];//{"indicator":"name", "start":arrayindex, "end":arrayindex}
+	$(function(){
+		var shPath = 'https://spreadsheets.google.com/feeds/list/',
+		shKey = '1_QV9VGHDynYtumrihMQzznZkkqUDqu7ezNvl5IfQddw',
+		shCallback = '/public/values?alt=json-in-script&callback=?',
+		shList = 'od6';
+		$.getJSON( shPath + shKey + '/' + shList + shCallback)
+		.done(function (data) {
+			//console.log(data);
+			console.log(data);
+			var current;
+			data.feed.entry.forEach(function (d,index) {
+				if(d.content.$t==""){
+					if(current!=undefined){
+						current.end = index-1;
+						indindex.push(current);
+					}
+					current = {"indicator":d.gsx$_cn6ca.$t,"start":index+1, "end":null};
+				}
+				/*
+				d.content.$t.split(", ").forEach(function (s) {
+					if(s.split(": ")[1] != null){
+						if(arealist.indexOf(s.split(": ")[0])==-1){
+							arealist.push(s.split(": ")[0]);
+						}
+						if(timelist.indexOf(d.title.$t)==-1){
+							timelist.push(d.title.$t);
+						}
+						dataset.push({"time":d.title.$t,
+													"area":s.split(": ")[0],
+													"data":s.split(": ")[1].replace(",","")});
+					}
+				});
+				*/
+			});
+			//buildchart();
+		})
+		.fail(function(jqxhr, textStatus, error){
+			console.log("Error");
+		});
+	});
+</script>
+</body>
+</html>

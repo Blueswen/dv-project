@@ -1,0 +1,157 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<title>EDACS</title>
+	<script src="http://code.jquery.com/jquery-1.11.0.min.js"></script>
+	<script src="js/d3.min.js" charset="utf-8"></script>
+	<!--script src="js/d3.min.js"></script-->
+	<script src="js/topojson.js"></script>
+	<!-- jQuery ui -->
+	<script src="js/jquery-ui-1.10.4.min.js"></script>
+	<link href="css/ui-lightness/jquery-ui-1.10.4.css" rel="stylesheet">
+	<!-- qtip2 -->
+	<script src="qtip/jquery.qtip.js"></script>
+	<link rel="stylesheet" type="text/css" href="qtip/jquery.qtip.css">
+	<!-- nv.d3 -->
+	<script src="js/nv.d3.js"></script>
+	<link rel="stylesheet" type="text/css" href="css/nv.d3.css">
+	<!-- Latest compiled and minified CSS -->
+	<!--link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.0/css/bootstrap.min.css"-->
+	<link rel="stylesheet" type="text/css" href="css/bootstrap.min.css">
+	<style type="text/css">
+		body{
+			background: url("img/crossword.png");
+			margin: 20px;
+		}
+		select{
+			width: 100%;
+			font-size: 2em;
+		}
+		.btn{
+			margin: 10px;
+		}
+		.indi-label{
+			font-size: 2em;
+		}
+		.close-btn{
+			display: inline;
+			cursor: pointer;
+		}
+		.panel-body{
+			min-height: 64px;
+			padding: 30px;
+		}
+		#build{
+			display: block;
+			cursor: pointer;
+			font-size: 5em;
+		}
+	</style>
+</head>
+<body>
+	<div class="row">
+		<div id="control" class="col-md-3">
+			<div class="panel panel-default">
+			  <div class="panel-heading">
+			    <h1>
+			    	類別
+			    	<small class="pull-right"><a href="https://docs.google.com/spreadsheets/d/1U_Yt1qovTlUj2FSlS7901cpCeXUa1lXDX8Ua8mdTn24/edit?usp=sharing" target="_blank">類別清單</a></small>
+			    </h1>
+			  </div>
+			  <div class="panel-body">
+			    <select id="category">
+			    	<option>請選擇類別</option>
+			    </select>
+			  </div>
+			</div>
+			<div class="panel panel-default">
+			  <div class="panel-heading">
+			    <h1>
+			    	指標
+			    	<small class="pull-right"><a href="" target="_blank">指標清單</a></small>
+			    </h1>
+			  </div>
+			  <div class="panel-body">
+			    <select id="indicator">
+			    	<option>請選擇指標</option>
+			    </select>
+			  </div>
+			</div>
+			<div class="panel panel-default">
+				<div class="panel-heading">
+					<h1>單指標</h1>
+				</div>
+			  <div class="panel-body">
+					<button id="line" class="btn btn-success">Line Chart</button>
+					<button id="bar" class="btn btn-success">Bar Chart</button>
+					<button id="pie" class="btn btn-success">Pie Chart</button>
+					<button id="geo" class="btn btn-success">Geo Chart</button>
+			  </div>
+			</div>
+			<div class="panel panel-default">
+				<div class="panel-heading">
+					<h1>多指標</h1>
+				</div>
+			  <div class="panel-body">
+					<button id="scatter" class="btn btn-success">Scatter Chart</button>
+					<button id="lpb" class="btn btn-success">Line Plus Bar Chart</button>
+				</div>
+			</div>
+			<div class="panel panel-default">
+			  <div class="panel-heading">
+			    <h1>
+			    	設定
+			    </h1>
+			  </div>
+			  <div class="panel-body">
+			    <div>
+			    	<label>類別清單</label>
+			    	<input type="text" value="https://docs.google.com/spreadsheets/d/1U_Yt1qovTlUj2FSlS7901cpCeXUa1lXDX8Ua8mdTn24/pubhtml">
+			    </div>
+			    <div>
+			    	<label>指標清單</label>
+			    	<input type="text" value="https://docs.google.com/spreadsheets/d/1U_Yt1qovTlUj2FSlS7901cpCeXUa1lXDX8Ua8mdTn24/pubhtml">
+			    </div>
+			    <button class="btn btn-success">新增類別</button>	
+			  </div>
+			</div>
+		</div>
+		<div class="col-md-9">
+			<div id="sel" class="row">
+				<div class="col-md-6">
+					<div class="panel panel-default">
+					  <div class="panel-heading">
+					    <h1>選擇的指標<small class="pull-right">(0/3)</small></h1>
+					  </div>
+					  <div class="panel-body">
+					  	<span class="label label-primary indi-label">
+					  		<div class="close-btn">&times;</div> | test
+					  	</span>	
+					  </div>
+					</div>
+				</div>
+				<div class="col-md-6">
+					<div class="panel panel-default">
+					  <div class="panel-heading">
+					    <h1>選擇的圖表<small class="pull-right">(0/5)</small></h1>
+					  </div>
+					  <div class="panel-body">
+					  </div> 
+					</div>
+				</div>
+			</div>
+			<div id="content" class="row">
+				<div class="col-md-12">
+					<span class="label label-default" id="build">繪製圖表</span>
+				</div>
+			</div>
+		</div>
+	</div>
+</body>
+<script type="text/javascript">
+	$(".close-btn").click(function() {
+		$(this).parent().remove();
+	});
+</script>
+</html>

@@ -1,0 +1,529 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<title>EDACS</title>
+	<script src="http://code.jquery.com/jquery-1.11.0.min.js"></script>
+	<script src="js/d3.min.js" charset="utf-8"></script>
+	<!--script src="js/d3.min.js"></script-->
+	<script src="js/topojson.js"></script>
+	<!-- jQuery ui -->
+	<script src="js/jquery-ui-1.10.4.min.js"></script>
+	<link href="css/ui-lightness/jquery-ui-1.10.4.css" rel="stylesheet">
+	<!-- qtip2 -->
+	<script src="qtip/jquery.qtip.js"></script>
+	<link rel="stylesheet" type="text/css" href="qtip/jquery.qtip.css">
+	<!-- nv.d3 -->
+	<script src="js/nv.d3.js"></script>
+	<link rel="stylesheet" type="text/css" href="css/nv.d3.css">
+	<!-- Latest compiled and minified CSS -->
+	<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.0/css/bootstrap.min.css">
+	<style type="text/css">
+		.chart svg {
+			height: 400px;
+			width: 800px;
+		}
+		#map{
+			width: 600px;
+			height: 600px;
+			border: 1px solid;
+			border-radius: 5px;
+			margin: 10px;
+			float: left;
+		}
+		#map path{
+			stroke-width:1;
+			stroke:black;
+		}
+		#map path:hover {
+			stroke-width:4;
+			stroke:blue;
+		}
+		/* time slider */
+		.steps { 
+	    border: 1px solid transparent; /*follows #slider2 style for sizing purposes */
+	    /*width: 1100px;*/
+	    position: relative;
+	    height: 30px;
+		}
+		#slider {
+			/*width:1100px;*/
+		}
+		.tick {
+		  border: 1px solid transparent; /*follows slide handle style for sizing purposes*/
+		  position: absolute;
+		  width: 1.2em;
+		  margin-left: -.6em;
+		  text-align:center;
+		  left: 0;
+		}
+	</style>
+</head>
+<body>
+<h1>Welcome</h1>
+<select id="category">
+	<option>請選擇類別</option>
+</select>
+<select id="indicator">
+	<option>請選擇指標</option>
+</select>
+<form id="chartlist">
+	<label><input type="checkbox" id="line">Line Chart</label>
+	<label><input type="checkbox" id="bar">Bar Chart</label>
+	<label><input type="checkbox" id="pie">Pie Chart</label>
+	<label><input type="checkbox" id="geo">Geo Chart</label>
+	<label><input type="checkbox" id="scatter">Scatter Chart</label>
+	<label><input type="checkbox" id="lpb">Line Plus Bar Chart</label>
+</form>
+<button id="build" onclick="buildchart()">Build Chart</button>
+<div id="slider"></div>
+<div id="chart">
+	<svg id="map"></svg>
+	<div class="chart" id="linechart">
+		<svg></svg>
+	</div>
+	<div class="chart" id="barchart">
+		<svg></svg>
+	</div>
+	<div class="chart" id="piechart">
+		<svg></svg>
+	</div>
+	<div class="chart" id="scatterchart">
+		<svg></svg>
+	</div>
+</div>
+<script type="text/javascript">
+	var dataset = [];//{"indicator":name,"data":data, "timeslist":timelist, "arealist":arealist}
+	var Charts = {"line":false,
+								"bar":false,
+								"pie":false,
+								"geo":false,
+								"scatter":false,
+								"lpb":false}
+	var topo;
+	$(function(){
+		CategoryList($("#category"));
+		$("#category").change(function(){
+			IndicatorIndex($("#indicator"),$("#category option:selected").attr("key"));
+			$("#indicator").change(function(){
+				//console.log($("#indicator option:selected").attr("start"),$("#indicator option:selected").next().attr("start")-1);
+				IndicatorData($("#indicator option:selected").text(), $("#indicator option:selected").attr("start"), $("#indicator option:selected").next().attr("start")-1, $("#category option:selected").attr("key"));
+			});
+		});
+		
+	});
+	function CategoryList(catselect,shKey) {
+		var shPath = 'https://spreadsheets.google.com/feeds/list/',
+		shKey = shKey || '1U_Yt1qovTlUj2FSlS7901cpCeXUa1lXDX8Ua8mdTn24',//default native list
+		shCallback = '/public/values?alt=json-in-script&callback=?',
+		shList = 'od6';
+		$.getJSON( shPath + shKey + '/' + shList + shCallback)
+		.done(function (data) {
+			data.feed.entry.forEach(function (d,index) {
+				catselect.append($("<option></option>").attr({"id":"Cat"+d.gsx$category.$t,"key":d.gsx$key.$t,"note":d.gsx$note.$t}).text(d.gsx$category.$t));
+			});
+		})
+		.fail(function(jqxhr, textStatus, error){
+			console.log("Can't get category list.");
+		});
+	}
+	function IndicatorIndex(indselect,shKey) {
+		var shPath = 'https://spreadsheets.google.com/feeds/list/',
+		shKey = shKey || '1_QV9VGHDynYtumrihMQzznZkkqUDqu7ezNvl5IfQddw',//default 土地面積
+		shCallback = '/public/values?alt=json-in-script&callback=?',
+		shList = 'od6';
+		$.getJSON( shPath + shKey + '/' + shList + shCallback)
+		.done(function (data) {
+			var currentind,count=0;
+			indselect.html("<option>請選擇指標</option>");
+			data.feed.entry.forEach(function (d,index) {
+				if(d.content.$t==""){
+					indselect.append($("<option></option>").attr({"id":count,"start":index+1}).text(d.gsx$_cn6ca.$t));
+					count++;
+				}
+			});
+		})
+		.fail(function(jqxhr, textStatus, error){
+			console.log("Can't get category list.");
+		});
+	}
+	function IndicatorData(indicator,start,end,shKey){
+		var inddata = [],
+				timelist = [],
+				arealist = [];
+		var shPath = 'https://spreadsheets.google.com/feeds/list/',
+		shKey = shKey || '1I5qL7YWLJtp2V3Vevo318Gmsci3K6LGH18mdonwnHco',
+		shCallback = '/public/values?alt=json-in-script&callback=?',
+		shList = 'od6';
+		$.getJSON( shPath + shKey + '/' + shList + shCallback)
+		.done(function (data) {
+			var entry = data.feed.entry;
+			for (var i = start; i <= end; i++) {
+				entry[i].content.$t.split(", ").forEach(function (s) {
+					if(s.split(": ")[1] != null){
+						if(arealist.indexOf(s.split(": ")[0])==-1){
+							arealist.push(s.split(": ")[0]);
+						}
+						if(timelist.indexOf(entry[i].title.$t)==-1){
+							timelist.push(entry[i].title.$t);
+						}
+						inddata.push({"time":entry[i].title.$t,
+											 "area":s.split(": ")[0],
+											 "data":s.split(": ")[1].replace(",","")});
+					}
+				});
+			};
+			dataset.push({"indicator":indicator, "data":inddata, "timelist":timelist, "arealist":arealist});
+		})
+		.fail(function(jqxhr, textStatus, error){
+			console.log("Error");
+		});
+	}
+
+	function buildchart() {
+		$.map($("input:checked"),function(d){return d.id;}).forEach(function (d){Charts[d] = true});
+
+		if(Charts.line){
+			//line chart
+			nv.addGraph(function() {
+			  linechart = nv.models.lineChart()
+				                .margin({left: 100})  //Adjust chart margins to give the x-axis some breathing room.
+				                .useInteractiveGuideline(true)  //We want nice looking tooltips and a guideline!
+				                .transitionDuration(350)  //how fast do you want the lines to transition?
+				                .showLegend(true)       //Show the legend, allowing users to turn on/off line series.
+				                .showYAxis(true)        //Show the y-axis
+				                .showXAxis(true)        //Show the x-axis
+				  							;
+
+			  linechart.xAxis
+			    .axisLabel('Year')
+			    ;
+
+			  linechart.yAxis
+			    .axisLabel('Area')
+			    ;
+
+			  d3.select('#linechart svg')
+			    .datum([linedata(dataset,"Area")["臺北市"]])
+			    .transition().duration(500)
+			    .call(linechart)
+			    ;
+
+			  nv.utils.windowResize(linechart.update);
+
+			  return linechart;
+			});
+		}
+		if(Charts.bar){
+			//bar chart
+			nv.addGraph(function() {
+			  barchart = nv.models.discreteBarChart()
+			      .x(function(d) { return d.label })    //Specify the data accessors.
+			      .y(function(d) { return d.value })
+			      .staggerLabels(true)    //Too many bars and not enough room? Try staggering labels.
+			      .tooltips(false)        //Don't show tooltips
+			      .showValues(true)       //...instead, show the bar value right on top of each bar.
+			      .transitionDuration(350)
+			      ;
+
+			  //Bar chart data format json{"key":key, values:[{"name":county1,"value",value1},{"x":county2,"y",value2}...]}
+			  d3.select('#barchart svg')
+			      .datum([bardata(dataset,"test")["1998"]])
+			      .call(barchart);
+
+			  nv.utils.windowResize(barchart.update);
+
+			  return barchart;
+			});
+		}
+		if(Charts.pie){
+			//pie chart
+			nv.addGraph(function() {
+			  var piechart = nv.models.pieChart()
+			      .x(function(d) { return d.label })
+			      .y(function(d) { return d.value })
+			      .showLabels(true);
+
+			    d3.select("#piechart svg")
+			        .datum(piedata(dataset)["1998"])
+			      .transition().duration(1200)
+			        .call(piechart);
+
+			  return piechart;
+			});
+		}
+		if(Charts.geo){
+			//geo chart
+			buildmap(dataset);
+		}
+		if(Charts.scatter){
+			//scatter chart
+			nv.addGraph(function() {
+			  scatterchart = nv.models.scatterChart()
+	                .showDistX(true)
+	                .showDistY(true)
+	                .color(d3.scale.category10().range());
+
+			  scatterchart.xAxis.tickFormat(d3.format('.02f'));
+			  scatterchart.yAxis.tickFormat(d3.format('.02f'));
+			  scatterchart.scatter.onlyCircles(false);
+
+			  scatterchart.tooltipContent(function(key) {
+		      return '<h3>' + key + '</h3>';
+			  });
+
+			  d3.select('#scatterchart svg')
+		      .datum(scatterdata(dataset)["1998"])
+			    .transition().duration(500)
+		      .call(scatterchart);
+
+			  nv.utils.windowResize(scatterchart.update);
+
+			  return scatterchart;
+			});
+		}
+		if(Charts.lpb){
+			//line plus bar chart
+		}
+
+		
+		$("#slider").timeslider({
+			'timelist':dataset[0].timelist,
+			'width':1100
+		});
+		
+	}
+
+	function inittime(timelist) {
+		var timejson = {};
+		for (var i = 0; i < timelist.length; i++) {
+			timejson[timelist[i]] = [];
+		};
+		return timejson;
+	}
+	function initarea(arealist) {
+		var areajson = {};
+		for (var i = 0; i < arealist.length; i++) {
+			areajson[arealist[i]] = [];
+		};
+		return areajson;
+	}
+
+	function linedata(dataset,indname) {
+		var arealist = dataset.arealist;
+		areajson = initarea(arealist);
+		for (var i = 0; i < arealist.length; i++) {
+			areajson[arealist[i]] = {
+				"key": indname,
+				"values": []
+			};
+		};
+		dataset.data.forEach(function (d){
+			areajson[d.area]["values"].push({
+				"x":+d.time,
+				"y":+d.data
+			});
+		});
+		return areajson;
+	}
+	function bardata(dataset,indname) {
+		var timelist = dataset.timelist;
+		timejson = inittime(timelist);
+		for (var i = 0; i < timelist.length; i++) {
+			timejson[timelist[i]] = {
+				"key": indname,
+				"values": []
+			};
+		};
+		dataset.data.forEach(function (d){
+			timejson[d.time]["values"].push({
+				"label":d.area,
+				"value":isNaN(d.data)? 0:+d.data
+			});
+		});
+		return timejson;
+	}
+	function lpbdata(dataset) {
+	}
+	function scatterdata(dataset) {
+		var timelist = dataset[0].timelist;
+		timejson = inittime(timelist);
+		for (var i = 0; i < timelist.length; i++) {
+			timejson[timelist[i]] = [];
+		};
+		for( i=0 ; i<dataset[0].data.length ; i++ ){
+			timejson[dataset[0].data[i].time].push({
+				key: dataset[0].data[i].area,
+				values: [{
+					x:isNaN(dataset[0].data[i].data)? 0:+dataset[0].data[i].data,
+					y:isNaN(dataset[1].data[i].data)? 0:+dataset[1].data[i].data,
+					size:isNaN(dataset[2].data[i].data)? 0:+dataset[2].data[i].data
+				}]
+			});
+		}
+		return timejson;
+	}
+	function piedata(dataset) {
+		var timelist = dataset.timelist;
+		timejson = inittime(timelist);
+		for (var i = 0; i < timelist.length; i++) {
+			timejson[timelist[i]] = [];
+		};
+		dataset.data.forEach(function (d){
+			timejson[d.time].push({
+				"label":d.area,
+				"value":isNaN(d.data)? 0:+d.data
+			});
+		});
+		return timejson;
+	}
+	function geodata(dataset) {
+		var timelist = dataset.timelist;
+		timejson = inittime(timelist);
+		for (var i = 0; i < timelist.length; i++) {
+			timejson[timelist[i]] = {};
+		};
+		dataset.data.forEach(function (d){
+			timejson[d.time][d.area] = isNaN(d.data)? 0:+d.data;
+		});
+		return timejson;
+	}
+
+	function buildmap(dataset) {
+		d3.json("twCounty2010.topo.json", function (data) {
+			// load data with topojson.js
+			topo = topojson.feature(data, data.objects["twCounty2010.geo"]);
+
+			// prepare a Mercator projection for Taiwan
+			prj = d3.geo.mercator().center([120.979531, 23.978567]).scale(50000);
+			path = d3.geo.path().projection(prj);
+
+			//For zoom
+			t = prj.translate(); // the projection's default translation
+    	s = prj.scale() // the projection's default scale
+
+			// render them on a svg element with id "map"
+			blocks = d3.select("svg#map").selectAll("path").data(topo.features).enter()
+			.append("path").attr("d",path)
+			.attr("name",function(it){return it.properties.name;}) //Append name to path
+			.call(d3.behavior.zoom().on("zoom", redraw)); //Init zoom
+			
+			//For drag
+			var drag = d3.behavior.drag()
+		        .on("dragstart", function() {
+		          var proj = projection.rotate();
+		          m0 = [d3.event.sourceEvent.pageX, d3.event.sourceEvent.pageY];
+		          o0 = [-proj[0],-proj[1]];
+		        })
+		       .on("drag", function() {
+		         if (m0) {
+		           var m1 = [d3.event.sourceEvent.pageX, d3.event.sourceEvent.pageY],
+		               o1 = [o0[0] + (m0[0] - m1[0]) / 4, o0[1] + (m1[1] - m0[1]) / 4];
+		           projection.rotate([-o1[0], -o1[1]]);
+		         }
+		      	// Update the map
+		        path = d3.geo.path().projection(projection);
+		        d3.selectAll("path").attr("d", path);
+		    	});
+
+		  //Append tooltip with name to path in map
+			$('#map path').each(function() {
+				$(this).qtip({
+					content: {
+						text: $(this).attr("name") //Tooltip data
+					},
+					style: {
+				        tip:{
+				        	corner: true,
+				        	mimic: 'center'
+				        },
+				        classes: 'qtip-rounded qtip-light'
+				    },
+					position: {
+					    my: 'bottom center',
+					    at: 'bottom center',
+					    target: 'mouse'
+					}
+				});
+			});
+			draw(topo,dataset.timelist[0]);
+		});
+	}
+	function draw(topo,year){
+		//Set year lable to the current year
+		//$('#year').text(year.toString());
+		
+		//Initialize data in features
+		//Use features' name as index to get data form json
+		mapdata = geodata(dataset);
+		for(i = 0; i < topo.features.length; i ++ ) {
+			topo.features[i].properties.value = mapdata[year.toString()][topo.features[i].properties.name]
+		}
+
+		//Create a color map for data
+		dataarray = [];
+		$.each(mapdata[year.toString()], function (key,val){dataarray.push(val);});
+		colorMap = d3.scale.linear()
+		.domain([d3.min(dataarray),d3.max(dataarray)])								//Set upper bound and lower bound
+		.range(["#FDDBBE","#480100"]);	//Set color
+
+		// fill each path in map with color
+		blocks.transition().attr("fill",function(it){
+			return colorMap(it.properties.value);
+		}).duration(1000);
+
+		//update bar chart
+		//updatebchart(year);
+	}
+	//For zoom
+	function redraw() {
+    // d3.event.translate (an array) stores the current translation from the parent SVG element
+    // t (an array) stores the projection's default translation
+    // we add the x and y values in each array to determine the projection's new translation
+    var tx = t[0] * d3.event.scale + d3.event.translate[0];
+    var ty = t[1] * d3.event.scale + d3.event.translate[1];
+    prj.translate([tx, ty]);
+
+    // now we determine the projection's new scale, but there's a problem:
+    // the map doesn't 'zoom onto the mouse point'
+    prj.scale(s * d3.event.scale);
+
+    // redraw the map
+    d3.select("svg#map").selectAll("path").attr("d", path);
+  }
+
+  $.fn.timeslider = function(options) {
+  	var defaults = {
+  		'timelist':['1','2','3','4','5'],
+  		'width' : 1100
+  	};
+  	this.options = $.extend({},defaults,options);
+
+  	this.slider({
+  		value:0,
+  		min:0,
+  		max:this.options.timelist.length-1,
+  		step:1,
+  		slide: function(event,ui){
+  			d3.select('#scatterchart svg')
+  	      .datum(scatterdata(dataset)[dataset[0].timelist[ui.value]])
+  		    .transition().duration(500)
+  	      .call(scatterchart);
+  		}
+  	});
+
+  	this.css('width',this.options.width);
+
+  	var labels = "<div class='steps' style='width:" + this.options.width + "px'>";
+
+  	for( i=0 ; i<this.options.timelist.length ; i++ ){
+  		labels += "<span class='tick' style='left:" + i*(100/(this.options.timelist.length-1)) + "%'>|<br>" + this.options.timelist[i] + "</span>";
+  	}
+
+  	labels.concat("</div>");
+
+  	this.after(labels);
+  }
+</script>
+</body>
+</html>

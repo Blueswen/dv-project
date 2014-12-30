@@ -1,0 +1,584 @@
+<html xmlns:x="urn:schemas-microsoft-com:office:excel"><head><meta http-equiv="Content-Type" content="charset=big5"><!--[if gte mso 9]><xml><x:ExcelWorkbook><x:ExcelWorksheets><x:ExcelWorksheet><x:Name>matrix</x:Name><x:WorksheetOptions><x:Print><x:ValidPrinterInfo/></x:Print></x:WorksheetOptions></x:ExcelWorksheet></x:ExcelWorksheets></x:ExcelWorkbook></xml><![endif]--> </head><body><style>.stub1{mso-style-parent:style0;mso-number-format:"\@";}.stub2{mso-style-parent:style0;mso-number-format:"\@";}.stub3{mso-style-parent:style0;mso-number-format:"\@";}.stub4{mso-style-parent:style0;mso-number-format:"\@";}.stub5{mso-style-parent:style0;mso-number-format:"\@";}.stub6{mso-style-parent:style0;mso-number-format:"\@";}.headfirst{mso-style-parent:style0;mso-number-format:"\@";}.headlast{mso-style-parent:style0;mso-number-format:"\@";}.headmid{mso-style-parent:style0;mso-number-format:"\@";}.title{mso-style-parent:style0;text-align:left;}<style><table class="pxtable"border="1"cellpadding="5"cellspacing="0">
+<tr>
+<th class="title" colspan="25">【改制後】縣市為民服務重要統計指標 依 指標, 期間 與 縣市 </th>
+</tr>
+<tr>
+<th class="headfirst" colspan="1" rowspan="1">&nbsp;</th>
+<th class="headfirst" colspan="1"> 總計</th>
+<th class="headfirst" colspan="1"> 臺灣地區</th>
+<th class="headfirst" colspan="1"> 新北市</th>
+<th class="headfirst" colspan="1"> 臺北市</th>
+<th class="headfirst" colspan="1"> 臺中市</th>
+<th class="headfirst" colspan="1"> 臺南市</th>
+<th class="headfirst" colspan="1"> 高雄市</th>
+<th class="headfirst" colspan="1"> 宜蘭縣</th>
+<th class="headfirst" colspan="1"> 桃園縣</th>
+<th class="headfirst" colspan="1"> 新竹縣</th>
+<th class="headfirst" colspan="1"> 苗栗縣</th>
+<th class="headfirst" colspan="1"> 彰化縣</th>
+<th class="headfirst" colspan="1"> 南投縣</th>
+<th class="headfirst" colspan="1"> 雲林縣</th>
+<th class="headfirst" colspan="1"> 嘉義縣</th>
+<th class="headfirst" colspan="1"> 屏東縣</th>
+<th class="headfirst" colspan="1"> 臺東縣</th>
+<th class="headfirst" colspan="1"> 花蓮縣</th>
+<th class="headfirst" colspan="1"> 澎湖縣</th>
+<th class="headfirst" colspan="1"> 基隆市</th>
+<th class="headfirst" colspan="1"> 新竹市</th>
+<th class="headfirst" colspan="1"> 嘉義市</th>
+<th class="headfirst" colspan="1"> 金門縣</th>
+<th class="headfirst" colspan="1"> 連江縣</th>
+</tr>
+<tr>
+<td class="stub1" rowspan="1" > 違反戶籍法令件數</td>
+<td>&nbsp;</td>
+<td>&nbsp;</td>
+<td>&nbsp;</td>
+<td>&nbsp;</td>
+<td>&nbsp;</td>
+<td>&nbsp;</td>
+<td>&nbsp;</td>
+<td>&nbsp;</td>
+<td>&nbsp;</td>
+<td>&nbsp;</td>
+<td>&nbsp;</td>
+<td>&nbsp;</td>
+<td>&nbsp;</td>
+<td>&nbsp;</td>
+<td>&nbsp;</td>
+<td>&nbsp;</td>
+<td>&nbsp;</td>
+<td>&nbsp;</td>
+<td>&nbsp;</td>
+<td>&nbsp;</td>
+<td>&nbsp;</td>
+<td>&nbsp;</td>
+<td>&nbsp;</td>
+<td>&nbsp;</td>
+</tr>
+<tr>
+<td class="stub2" >1998</td>
+<td nowrap>21,024</td><td nowrap>20,972</td><td nowrap>2,008</td><td nowrap>2,342</td><td nowrap>2,561</td><td nowrap>2,435</td><td nowrap>2,537</td><td nowrap>501</td><td nowrap>1,123</td><td nowrap>192</td><td nowrap>271</td><td nowrap>2,258</td><td nowrap>396</td><td nowrap>951</td><td nowrap>612</td><td nowrap>896</td><td nowrap>725</td><td nowrap>80</td><td nowrap>86</td><td nowrap>337</td><td nowrap>224</td><td nowrap>437</td><td nowrap>52</td><td nowrap>-</td>
+</tr>
+<tr>
+<td class="stub2" >1999</td>
+<td nowrap>18,111</td><td nowrap>18,059</td><td nowrap>2,263</td><td nowrap>2,555</td><td nowrap>2,438</td><td nowrap>1,886</td><td nowrap>2,196</td><td nowrap>420</td><td nowrap>1,249</td><td nowrap>241</td><td nowrap>102</td><td nowrap>1,124</td><td nowrap>367</td><td nowrap>824</td><td nowrap>369</td><td nowrap>708</td><td nowrap>278</td><td nowrap>43</td><td nowrap>43</td><td nowrap>462</td><td nowrap>174</td><td nowrap>317</td><td nowrap>52</td><td nowrap>-</td>
+</tr>
+<tr>
+<td class="stub2" >2000</td>
+<td nowrap>22,175</td><td nowrap>22,129</td><td nowrap>2,933</td><td nowrap>3,749</td><td nowrap>3,224</td><td nowrap>1,809</td><td nowrap>2,452</td><td nowrap>483</td><td nowrap>1,760</td><td nowrap>347</td><td nowrap>131</td><td nowrap>1,254</td><td nowrap>428</td><td nowrap>862</td><td nowrap>528</td><td nowrap>793</td><td nowrap>320</td><td nowrap>49</td><td nowrap>56</td><td nowrap>493</td><td nowrap>141</td><td nowrap>317</td><td nowrap>46</td><td nowrap>-</td>
+</tr>
+<tr>
+<td class="stub2" >2001</td>
+<td nowrap>24,580</td><td nowrap>24,524</td><td nowrap>3,715</td><td nowrap>4,469</td><td nowrap>3,285</td><td nowrap>2,057</td><td nowrap>3,590</td><td nowrap>428</td><td nowrap>1,744</td><td nowrap>299</td><td nowrap>82</td><td nowrap>1,098</td><td nowrap>385</td><td nowrap>737</td><td nowrap>495</td><td nowrap>729</td><td nowrap>337</td><td nowrap>35</td><td nowrap>138</td><td nowrap>464</td><td nowrap>133</td><td nowrap>304</td><td nowrap>31</td><td nowrap>25</td>
+</tr>
+<tr>
+<td class="stub2" >2002</td>
+<td nowrap>41,492</td><td nowrap>41,331</td><td nowrap>5,486</td><td nowrap>6,664</td><td nowrap>6,397</td><td nowrap>3,325</td><td nowrap>5,021</td><td nowrap>633</td><td nowrap>2,930</td><td nowrap>541</td><td nowrap>176</td><td nowrap>2,354</td><td nowrap>813</td><td nowrap>1,460</td><td nowrap>1,228</td><td nowrap>1,238</td><td nowrap>1,128</td><td nowrap>208</td><td nowrap>227</td><td nowrap>572</td><td nowrap>301</td><td nowrap>629</td><td nowrap>124</td><td nowrap>37</td>
+</tr>
+<tr>
+<td class="stub2" >2003</td>
+<td nowrap>40,274</td><td nowrap>40,128</td><td nowrap>6,182</td><td nowrap>6,525</td><td nowrap>6,401</td><td nowrap>2,612</td><td nowrap>4,895</td><td nowrap>728</td><td nowrap>3,136</td><td nowrap>578</td><td nowrap>188</td><td nowrap>2,219</td><td nowrap>670</td><td nowrap>1,301</td><td nowrap>908</td><td nowrap>1,121</td><td nowrap>779</td><td nowrap>202</td><td nowrap>130</td><td nowrap>572</td><td nowrap>418</td><td nowrap>563</td><td nowrap>120</td><td nowrap>26</td>
+</tr>
+<tr>
+<td class="stub2" >2004</td>
+<td nowrap>47,488</td><td nowrap>47,292</td><td nowrap>7,995</td><td nowrap>7,971</td><td nowrap>7,547</td><td nowrap>2,827</td><td nowrap>5,583</td><td nowrap>839</td><td nowrap>3,824</td><td nowrap>710</td><td nowrap>177</td><td nowrap>2,554</td><td nowrap>826</td><td nowrap>1,341</td><td nowrap>871</td><td nowrap>1,267</td><td nowrap>775</td><td nowrap>233</td><td nowrap>132</td><td nowrap>700</td><td nowrap>501</td><td nowrap>619</td><td nowrap>170</td><td nowrap>26</td>
+</tr>
+<tr>
+<td class="stub2" >2005</td>
+<td nowrap>58,616</td><td nowrap>58,385</td><td nowrap>11,519</td><td nowrap>10,360</td><td nowrap>8,514</td><td nowrap>3,406</td><td nowrap>6,468</td><td nowrap>904</td><td nowrap>4,604</td><td nowrap>1,035</td><td nowrap>184</td><td nowrap>2,750</td><td nowrap>901</td><td nowrap>1,473</td><td nowrap>1,070</td><td nowrap>1,379</td><td nowrap>1,189</td><td nowrap>211</td><td nowrap>141</td><td nowrap>901</td><td nowrap>633</td><td nowrap>743</td><td nowrap>197</td><td nowrap>34</td>
+</tr>
+<tr>
+<td class="stub2" >2006</td>
+<td nowrap>85,772</td><td nowrap>85,442</td><td nowrap>19,456</td><td nowrap>15,087</td><td nowrap>11,612</td><td nowrap>5,076</td><td nowrap>9,204</td><td nowrap>1,174</td><td nowrap>6,334</td><td nowrap>1,588</td><td nowrap>329</td><td nowrap>3,510</td><td nowrap>1,223</td><td nowrap>1,914</td><td nowrap>1,364</td><td nowrap>2,155</td><td nowrap>1,425</td><td nowrap>622</td><td nowrap>217</td><td nowrap>1,253</td><td nowrap>949</td><td nowrap>950</td><td nowrap>289</td><td nowrap>41</td>
+</tr>
+<tr>
+<td class="stub2" >2007</td>
+<td nowrap>76,962</td><td nowrap>76,655</td><td nowrap>17,196</td><td nowrap>13,468</td><td nowrap>10,062</td><td nowrap>4,589</td><td nowrap>8,070</td><td nowrap>1,194</td><td nowrap>5,094</td><td nowrap>2,296</td><td nowrap>432</td><td nowrap>3,073</td><td nowrap>1,168</td><td nowrap>1,678</td><td nowrap>1,195</td><td nowrap>1,882</td><td nowrap>1,092</td><td nowrap>750</td><td nowrap>136</td><td nowrap>1,502</td><td nowrap>842</td><td nowrap>936</td><td nowrap>279</td><td nowrap>28</td>
+</tr>
+<tr>
+<td class="stub2" >2008</td>
+<td nowrap>52,858</td><td nowrap>52,650</td><td nowrap>12,493</td><td nowrap>8,801</td><td nowrap>6,839</td><td nowrap>3,491</td><td nowrap>5,585</td><td nowrap>753</td><td nowrap>3,798</td><td nowrap>1,123</td><td nowrap>339</td><td nowrap>1,987</td><td nowrap>741</td><td nowrap>1,106</td><td nowrap>799</td><td nowrap>1,301</td><td nowrap>427</td><td nowrap>582</td><td nowrap>72</td><td nowrap>1,118</td><td nowrap>668</td><td nowrap>627</td><td nowrap>193</td><td nowrap>15</td>
+</tr>
+<tr>
+<td class="stub2" >2009</td>
+<td nowrap>25,068</td><td nowrap>24,906</td><td nowrap>5,645</td><td nowrap>3,677</td><td nowrap>3,299</td><td nowrap>1,817</td><td nowrap>2,995</td><td nowrap>301</td><td nowrap>1,988</td><td nowrap>560</td><td nowrap>194</td><td nowrap>807</td><td nowrap>289</td><td nowrap>481</td><td nowrap>384</td><td nowrap>670</td><td nowrap>199</td><td nowrap>328</td><td nowrap>36</td><td nowrap>576</td><td nowrap>278</td><td nowrap>382</td><td nowrap>141</td><td nowrap>21</td>
+</tr>
+<tr>
+<td class="stub2" >2010</td>
+<td nowrap>17,185</td><td nowrap>17,062</td><td nowrap>3,402</td><td nowrap>2,629</td><td nowrap>2,242</td><td nowrap>1,132</td><td nowrap>1,810</td><td nowrap>241</td><td nowrap>1,409</td><td nowrap>396</td><td nowrap>241</td><td nowrap>851</td><td nowrap>194</td><td nowrap>436</td><td nowrap>310</td><td nowrap>456</td><td nowrap>178</td><td nowrap>216</td><td nowrap>27</td><td nowrap>411</td><td nowrap>167</td><td nowrap>314</td><td nowrap>117</td><td nowrap>6</td>
+</tr>
+<tr>
+<td class="stub2" >2011</td>
+<td nowrap>12,658</td><td nowrap>12,548</td><td nowrap>2,987</td><td nowrap>2,106</td><td nowrap>1,598</td><td nowrap>655</td><td nowrap>859</td><td nowrap>210</td><td nowrap>962</td><td nowrap>300</td><td nowrap>187</td><td nowrap>681</td><td nowrap>100</td><td nowrap>371</td><td nowrap>279</td><td nowrap>339</td><td nowrap>143</td><td nowrap>168</td><td nowrap>29</td><td nowrap>264</td><td nowrap>124</td><td nowrap>186</td><td nowrap>102</td><td nowrap>8</td>
+</tr>
+<tr>
+<td class="stub2" >2012</td>
+<td nowrap>10,983</td><td nowrap>10,848</td><td nowrap>2,713</td><td nowrap>1,786</td><td nowrap>1,055</td><td nowrap>446</td><td nowrap>739</td><td nowrap>179</td><td nowrap>1,063</td><td nowrap>236</td><td nowrap>232</td><td nowrap>619</td><td nowrap>113</td><td nowrap>331</td><td nowrap>220</td><td nowrap>332</td><td nowrap>143</td><td nowrap>134</td><td nowrap>13</td><td nowrap>224</td><td nowrap>100</td><td nowrap>170</td><td nowrap>123</td><td nowrap>12</td>
+</tr>
+<tr>
+<td class="stub2" >2013</td>
+<td nowrap>9,794</td><td nowrap>9,611</td><td nowrap>2,246</td><td nowrap>1,584</td><td nowrap>1,089</td><td nowrap>403</td><td nowrap>704</td><td nowrap>162</td><td nowrap>780</td><td nowrap>285</td><td nowrap>166</td><td nowrap>542</td><td nowrap>62</td><td nowrap>306</td><td nowrap>171</td><td nowrap>286</td><td nowrap>121</td><td nowrap>140</td><td nowrap>14</td><td nowrap>314</td><td nowrap>99</td><td nowrap>137</td><td nowrap>168</td><td nowrap>15</td>
+</tr>
+<tr>
+<td class="stub1" rowspan="1" > 平均每百萬人違反戶籍法令件數</td>
+<td>&nbsp;</td>
+<td>&nbsp;</td>
+<td>&nbsp;</td>
+<td>&nbsp;</td>
+<td>&nbsp;</td>
+<td>&nbsp;</td>
+<td>&nbsp;</td>
+<td>&nbsp;</td>
+<td>&nbsp;</td>
+<td>&nbsp;</td>
+<td>&nbsp;</td>
+<td>&nbsp;</td>
+<td>&nbsp;</td>
+<td>&nbsp;</td>
+<td>&nbsp;</td>
+<td>&nbsp;</td>
+<td>&nbsp;</td>
+<td>&nbsp;</td>
+<td>&nbsp;</td>
+<td>&nbsp;</td>
+<td>&nbsp;</td>
+<td>&nbsp;</td>
+<td>&nbsp;</td>
+<td>&nbsp;</td>
+</tr>
+<tr>
+<td class="stub2" >1998</td>
+<td nowrap>962.83</td><td nowrap>963.03</td><td nowrap>583.71</td><td nowrap>894.16</td><td nowrap>1,081.71</td><td nowrap>1,339.32</td><td nowrap>947.94</td><td nowrap>1,074.84</td><td nowrap>687.81</td><td nowrap>451.92</td><td nowrap>483.84</td><td nowrap>1,737.45</td><td nowrap>724.89</td><td nowrap>1,267.23</td><td nowrap>1,079.91</td><td nowrap>982.29</td><td nowrap>2,883.05</td><td nowrap>223.88</td><td nowrap>952.21</td><td nowrap>885.11</td><td nowrap>632.73</td><td nowrap>1,662.00</td><td nowrap>1,018.21</td><td nowrap>-</td>
+</tr>
+<tr>
+<td class="stub2" >1999</td>
+<td nowrap>822.83</td><td nowrap>822.64</td><td nowrap>649.30</td><td nowrap>967.57</td><td nowrap>1,014.28</td><td nowrap>1,032.33</td><td nowrap>814.05</td><td nowrap>902.61</td><td nowrap>747.39</td><td nowrap>559.33</td><td nowrap>182.20</td><td nowrap>862.26</td><td nowrap>673.45</td><td nowrap>1,102.17</td><td nowrap>654.03</td><td nowrap>778.21</td><td nowrap>1,117.05</td><td nowrap>120.74</td><td nowrap>481.86</td><td nowrap>1,204.19</td><td nowrap>484.54</td><td nowrap>1,200.40</td><td nowrap>1,011.76</td><td nowrap>-</td>
+</tr>
+<tr>
+<td class="stub2" >2000</td>
+<td nowrap>999.57</td><td nowrap>1,000.18</td><td nowrap>828.67</td><td nowrap>1,417.98</td><td nowrap>1,320.74</td><td nowrap>984.73</td><td nowrap>902.94</td><td nowrap>1,038.50</td><td nowrap>1,028.06</td><td nowrap>794.52</td><td nowrap>234.03</td><td nowrap>958.65</td><td nowrap>788.52</td><td nowrap>1,157.35</td><td nowrap>938.69</td><td nowrap>873.06</td><td nowrap>1,297.88</td><td nowrap>138.16</td><td nowrap>627.42</td><td nowrap>1,274.52</td><td nowrap>386.09</td><td nowrap>1,193.32</td><td nowrap>871.52</td><td nowrap>-</td>
+</tr>
+<tr>
+<td class="stub2" >2001</td>
+<td nowrap>1,100.21</td><td nowrap>1,100.82</td><td nowrap>1,035.09</td><td nowrap>1,692.71</td><td nowrap>1,328.33</td><td nowrap>1,114.73</td><td nowrap>1,315.82</td><td nowrap>919.46</td><td nowrap>997.83</td><td nowrap>674.93</td><td nowrap>146.38</td><td nowrap>836.72</td><td nowrap>710.76</td><td nowrap>991.30</td><td nowrap>879.48</td><td nowrap>802.44</td><td nowrap>1,375.72</td><td nowrap>99.04</td><td nowrap>1,518.45</td><td nowrap>1,190.67</td><td nowrap>358.62</td><td nowrap>1,138.20</td><td nowrap>559.62</td><td nowrap>3,208.42</td>
+</tr>
+<tr>
+<td class="stub2" >2002</td>
+<td nowrap>1,847.11</td><td nowrap>1,845.43</td><td nowrap>1,513.02</td><td nowrap>2,526.32</td><td nowrap>2,561.64</td><td nowrap>1,796.86</td><td nowrap>1,834.38</td><td nowrap>1,361.43</td><td nowrap>1,648.12</td><td nowrap>1,203.59</td><td nowrap>313.89</td><td nowrap>1,790.00</td><td nowrap>1,501.23</td><td nowrap>1,964.53</td><td nowrap>2,181.64</td><td nowrap>1,363.78</td><td nowrap>4,617.49</td><td nowrap>589.83</td><td nowrap>2,457.85</td><td nowrap>1,462.14</td><td nowrap>800.43</td><td nowrap>2,347.45</td><td nowrap>2,139.94</td><td nowrap>4,201.20</td>
+</tr>
+<tr>
+<td class="stub2" >2003</td>
+<td nowrap>1,784.98</td><td nowrap>1,783.95</td><td nowrap>1,689.54</td><td nowrap>2,476.75</td><td nowrap>2,540.96</td><td nowrap>1,408.42</td><td nowrap>1,783.33</td><td nowrap>1,569.99</td><td nowrap>1,735.15</td><td nowrap>1,267.59</td><td nowrap>335.21</td><td nowrap>1,685.77</td><td nowrap>1,238.80</td><td nowrap>1,754.20</td><td nowrap>1,617.38</td><td nowrap>1,238.71</td><td nowrap>3,200.45</td><td nowrap>574.43</td><td nowrap>1,407.70</td><td nowrap>1,459.76</td><td nowrap>1,097.55</td><td nowrap>2,094.88</td><td nowrap>2,001.40</td><td nowrap>2,959.76</td>
+</tr>
+<tr>
+<td class="stub2" >2004</td>
+<td nowrap>2,096.89</td><td nowrap>2,094.88</td><td nowrap>2,165.31</td><td nowrap>3,036.80</td><td nowrap>2,972.37</td><td nowrap>1,521.10</td><td nowrap>2,030.76</td><td nowrap>1,812.93</td><td nowrap>2,081.03</td><td nowrap>1,532.60</td><td nowrap>315.64</td><td nowrap>1,939.84</td><td nowrap>1,531.32</td><td nowrap>1,815.51</td><td nowrap>1,557.70</td><td nowrap>1,404.68</td><td nowrap>3,207.68</td><td nowrap>665.43</td><td nowrap>1,434.31</td><td nowrap>1,784.40</td><td nowrap>1,301.56</td><td nowrap>2,292.87</td><td nowrap>2,710.48</td><td nowrap>2,862.65</td>
+</tr>
+<tr>
+<td class="stub2" >2005</td>
+<td nowrap>2,578.82</td><td nowrap>2,577.42</td><td nowrap>3,094.52</td><td nowrap>3,955.07</td><td nowrap>3,329.32</td><td nowrap>1,829.46</td><td nowrap>2,349.83</td><td nowrap>1,956.98</td><td nowrap>2,466.42</td><td nowrap>2,190.65</td><td nowrap>328.40</td><td nowrap>2,089.20</td><td nowrap>1,675.37</td><td nowrap>2,003.94</td><td nowrap>1,919.28</td><td nowrap>1,533.50</td><td nowrap>4,961.24</td><td nowrap>605.93</td><td nowrap>1,530.14</td><td nowrap>2,298.28</td><td nowrap>1,628.00</td><td nowrap>2,741.48</td><td nowrap>2,924.58</td><td nowrap>3,451.08</td>
+</tr>
+<tr>
+<td class="stub2" >2006</td>
+<td nowrap>3,758.06</td><td nowrap>3,757.34</td><td nowrap>5,185.66</td><td nowrap>5,748.94</td><td nowrap>4,505.97</td><td nowrap>2,721.97</td><td nowrap>3,338.61</td><td nowrap>2,546.60</td><td nowrap>3,341.18</td><td nowrap>3,289.93</td><td nowrap>587.54</td><td nowrap>2,668.33</td><td nowrap>2,280.92</td><td nowrap>2,618.65</td><td nowrap>2,455.57</td><td nowrap>2,405.34</td><td nowrap>6,001.26</td><td nowrap>1,796.13</td><td nowrap>2,355.19</td><td nowrap>3,203.13</td><td nowrap>2,416.45</td><td nowrap>3,492.23</td><td nowrap>3,938.54</td><td nowrap>4,073.32</td>
+</tr>
+<tr>
+<td class="stub2" >2007</td>
+<td nowrap>3,358.23</td><td nowrap>3,357.86</td><td nowrap>4,546.13</td><td nowrap>5,119.44</td><td nowrap>3,874.01</td><td nowrap>2,456.12</td><td nowrap>2,921.24</td><td nowrap>2,593.33</td><td nowrap>2,648.90</td><td nowrap>4,668.98</td><td nowrap>771.33</td><td nowrap>2,337.43</td><td nowrap>2,185.38</td><td nowrap>2,307.86</td><td nowrap>2,162.53</td><td nowrap>2,110.92</td><td nowrap>4,650.60</td><td nowrap>2,178.32</td><td nowrap>1,476.86</td><td nowrap>3,846.20</td><td nowrap>2,121.46</td><td nowrap>3,432.10</td><td nowrap>3,530.80</td><td nowrap>2,838.03</td>
+</tr>
+<tr>
+<td class="stub2" >2008</td>
+<td nowrap>2,298.40</td><td nowrap>2,298.65</td><td nowrap>3,273.96</td><td nowrap>3,351.36</td><td nowrap>2,614.86</td><td nowrap>1,865.32</td><td nowrap>2,018.46</td><td nowrap>1,634.65</td><td nowrap>1,950.87</td><td nowrap>2,248.04</td><td nowrap>605.05</td><td nowrap>1,512.59</td><td nowrap>1,390.94</td><td nowrap>1,526.21</td><td nowrap>1,452.63</td><td nowrap>1,466.41</td><td nowrap>1,834.55</td><td nowrap>1,699.93</td><td nowrap>775.45</td><td nowrap>2,868.96</td><td nowrap>1,660.85</td><td nowrap>2,293.06</td><td nowrap>2,323.66</td><td nowrap>1,522.77</td>
+</tr>
+<tr>
+<td class="stub2" >2009</td>
+<td nowrap>1,086.21</td><td nowrap>1,083.84</td><td nowrap>1,464.83</td><td nowrap>1,406.02</td><td nowrap>1,254.41</td><td nowrap>969.48</td><td nowrap>1,081.24</td><td nowrap>652.56</td><td nowrap>1,009.79</td><td nowrap>1,104.37</td><td nowrap>345.77</td><td nowrap>614.76</td><td nowrap>543.96</td><td nowrap>665.07</td><td nowrap>700.44</td><td nowrap>758.14</td><td nowrap>857.12</td><td nowrap>961.32</td><td nowrap>379.91</td><td nowrap>1,482.05</td><td nowrap>680.57</td><td nowrap>1,395.04</td><td nowrap>1,580.96</td><td nowrap>2,134.80</td>
+</tr>
+<tr>
+<td class="stub2" >2010</td>
+<td nowrap>742.62</td><td nowrap>740.69</td><td nowrap>875.56</td><td nowrap>1,006.08</td><td nowrap>848.57</td><td nowrap>603.86</td><td nowrap>652.91</td><td nowrap>522.71</td><td nowrap>707.89</td><td nowrap>773.52</td><td nowrap>429.32</td><td nowrap>649.68</td><td nowrap>366.97</td><td nowrap>605.37</td><td nowrap>568.30</td><td nowrap>519.32</td><td nowrap>768.62</td><td nowrap>635.51</td><td nowrap>279.61</td><td nowrap>1,064.14</td><td nowrap>403.90</td><td nowrap>1,149.65</td><td nowrap>1,224.06</td><td nowrap>604.14</td>
+</tr>
+<tr>
+<td class="stub2" >2011</td>
+<td nowrap>545.76</td><td nowrap>543.61</td><td nowrap>764.54</td><td nowrap>799.28</td><td nowrap>601.56</td><td nowrap>349.26</td><td nowrap>309.66</td><td nowrap>456.75</td><td nowrap>479.16</td><td nowrap>582.15</td><td nowrap>333.04</td><td nowrap>521.77</td><td nowrap>190.60</td><td nowrap>518.44</td><td nowrap>516.10</td><td nowrap>390.10</td><td nowrap>623.14</td><td nowrap>497.30</td><td nowrap>298.85</td><td nowrap>691.04</td><td nowrap>296.87</td><td nowrap>683.93</td><td nowrap>1,013.68</td><td nowrap>798.00</td>
+</tr>
+<tr>
+<td class="stub2" >2012</td>
+<td nowrap>471.97</td><td nowrap>468.57</td><td nowrap>690.70</td><td nowrap>670.90</td><td nowrap>394.45</td><td nowrap>237.32</td><td nowrap>266.16</td><td nowrap>390.12</td><td nowrap>525.79</td><td nowrap>453.13</td><td nowrap>412.08</td><td nowrap>475.62</td><td nowrap>216.68</td><td nowrap>464.71</td><td nowrap>410.58</td><td nowrap>385.38</td><td nowrap>629.20</td><td nowrap>398.79</td><td nowrap>132.65</td><td nowrap>591.75</td><td nowrap>236.65</td><td nowrap>626.44</td><td nowrap>1,133.67</td><td nowrap>1,120.66</td>
+</tr>
+<tr>
+<td class="stub2" >2013</td>
+<td nowrap>419.54</td><td nowrap>413.98</td><td nowrap>569.02</td><td nowrap>591.07</td><td nowrap>404.34</td><td nowrap>214.09</td><td nowrap>253.30</td><td nowrap>353.31</td><td nowrap>382.90</td><td nowrap>540.55</td><td nowrap>293.93</td><td nowrap>417.58</td><td nowrap>119.53</td><td nowrap>431.36</td><td nowrap>321.75</td><td nowrap>334.36</td><td nowrap>536.50</td><td nowrap>418.48</td><td nowrap>140.53</td><td nowrap>835.03</td><td nowrap>231.97</td><td nowrap>505.45</td><td nowrap>1,436.98</td><td nowrap>1,277.96</td>
+</tr>
+<tr>
+<td class="stub1" rowspan="1" > 調解委員會調解成立案件數</td>
+<td>&nbsp;</td>
+<td>&nbsp;</td>
+<td>&nbsp;</td>
+<td>&nbsp;</td>
+<td>&nbsp;</td>
+<td>&nbsp;</td>
+<td>&nbsp;</td>
+<td>&nbsp;</td>
+<td>&nbsp;</td>
+<td>&nbsp;</td>
+<td>&nbsp;</td>
+<td>&nbsp;</td>
+<td>&nbsp;</td>
+<td>&nbsp;</td>
+<td>&nbsp;</td>
+<td>&nbsp;</td>
+<td>&nbsp;</td>
+<td>&nbsp;</td>
+<td>&nbsp;</td>
+<td>&nbsp;</td>
+<td>&nbsp;</td>
+<td>&nbsp;</td>
+<td>&nbsp;</td>
+<td>&nbsp;</td>
+</tr>
+<tr>
+<td class="stub2" >1998</td>
+<td nowrap>61,282</td><td nowrap>61,235</td><td nowrap>8,563</td><td nowrap>1,974</td><td nowrap>5,471</td><td nowrap>5,429</td><td nowrap>5,296</td><td nowrap>1,363</td><td nowrap>3,822</td><td nowrap>768</td><td nowrap>1,493</td><td nowrap>7,625</td><td nowrap>1,805</td><td nowrap>6,270</td><td nowrap>2,538</td><td nowrap>3,081</td><td nowrap>496</td><td nowrap>868</td><td nowrap>103</td><td nowrap>893</td><td nowrap>780</td><td nowrap>2,597</td><td nowrap>42</td><td nowrap>5</td>
+</tr>
+<tr>
+<td class="stub2" >1999</td>
+<td nowrap>73,513</td><td nowrap>73,452</td><td nowrap>11,079</td><td nowrap>1,973</td><td nowrap>5,791</td><td nowrap>6,356</td><td nowrap>5,529</td><td nowrap>1,767</td><td nowrap>4,346</td><td nowrap>812</td><td nowrap>1,692</td><td nowrap>10,149</td><td nowrap>1,623</td><td nowrap>7,443</td><td nowrap>3,846</td><td nowrap>3,237</td><td nowrap>634</td><td nowrap>1,138</td><td nowrap>116</td><td nowrap>894</td><td nowrap>948</td><td nowrap>4,079</td><td nowrap>59</td><td nowrap>2</td>
+</tr>
+<tr>
+<td class="stub2" >2000</td>
+<td nowrap>72,544</td><td nowrap>72,492</td><td nowrap>10,998</td><td nowrap>2,128</td><td nowrap>5,884</td><td nowrap>5,311</td><td nowrap>5,162</td><td nowrap>1,321</td><td nowrap>4,384</td><td nowrap>702</td><td nowrap>1,478</td><td nowrap>10,202</td><td nowrap>1,856</td><td nowrap>7,859</td><td nowrap>4,013</td><td nowrap>3,204</td><td nowrap>525</td><td nowrap>985</td><td nowrap>108</td><td nowrap>652</td><td nowrap>846</td><td nowrap>4,874</td><td nowrap>50</td><td nowrap>2</td>
+</tr>
+<tr>
+<td class="stub2" >2001</td>
+<td nowrap>67,308</td><td nowrap>67,257</td><td nowrap>10,153</td><td nowrap>2,003</td><td nowrap>5,417</td><td nowrap>5,570</td><td nowrap>5,332</td><td nowrap>1,191</td><td nowrap>4,087</td><td nowrap>800</td><td nowrap>1,075</td><td nowrap>8,577</td><td nowrap>1,960</td><td nowrap>7,302</td><td nowrap>3,754</td><td nowrap>2,691</td><td nowrap>527</td><td nowrap>887</td><td nowrap>91</td><td nowrap>643</td><td nowrap>721</td><td nowrap>4,476</td><td nowrap>50</td><td nowrap>1</td>
+</tr>
+<tr>
+<td class="stub2" >2002</td>
+<td nowrap>64,212</td><td nowrap>64,167</td><td nowrap>9,756</td><td nowrap>2,173</td><td nowrap>5,592</td><td nowrap>5,421</td><td nowrap>5,496</td><td nowrap>1,011</td><td nowrap>3,530</td><td nowrap>747</td><td nowrap>1,341</td><td nowrap>8,038</td><td nowrap>1,852</td><td nowrap>6,339</td><td nowrap>3,849</td><td nowrap>2,614</td><td nowrap>430</td><td nowrap>770</td><td nowrap>82</td><td nowrap>492</td><td nowrap>789</td><td nowrap>3,845</td><td nowrap>41</td><td nowrap>4</td>
+</tr>
+<tr>
+<td class="stub2" >2003</td>
+<td nowrap>75,512</td><td nowrap>75,464</td><td nowrap>16,824</td><td nowrap>2,379</td><td nowrap>6,083</td><td nowrap>6,878</td><td nowrap>6,030</td><td nowrap>997</td><td nowrap>3,589</td><td nowrap>753</td><td nowrap>1,498</td><td nowrap>9,068</td><td nowrap>1,806</td><td nowrap>6,013</td><td nowrap>4,358</td><td nowrap>2,755</td><td nowrap>525</td><td nowrap>729</td><td nowrap>110</td><td nowrap>415</td><td nowrap>777</td><td nowrap>3,877</td><td nowrap>47</td><td nowrap>1</td>
+</tr>
+<tr>
+<td class="stub2" >2004</td>
+<td nowrap>80,604</td><td nowrap>80,556</td><td nowrap>19,251</td><td nowrap>2,354</td><td nowrap>7,371</td><td nowrap>7,823</td><td nowrap>5,967</td><td nowrap>1,004</td><td nowrap>3,651</td><td nowrap>700</td><td nowrap>1,457</td><td nowrap>10,138</td><td nowrap>1,858</td><td nowrap>5,993</td><td nowrap>4,305</td><td nowrap>2,735</td><td nowrap>532</td><td nowrap>618</td><td nowrap>70</td><td nowrap>542</td><td nowrap>843</td><td nowrap>3,344</td><td nowrap>47</td><td nowrap>1</td>
+</tr>
+<tr>
+<td class="stub2" >2005</td>
+<td nowrap>84,108</td><td nowrap>84,038</td><td nowrap>18,534</td><td nowrap>2,612</td><td nowrap>8,742</td><td nowrap>8,275</td><td nowrap>6,082</td><td nowrap>1,072</td><td nowrap>3,353</td><td nowrap>838</td><td nowrap>1,524</td><td nowrap>11,866</td><td nowrap>1,801</td><td nowrap>5,908</td><td nowrap>4,350</td><td nowrap>2,741</td><td nowrap>501</td><td nowrap>668</td><td nowrap>103</td><td nowrap>540</td><td nowrap>978</td><td nowrap>3,550</td><td nowrap>68</td><td nowrap>2</td>
+</tr>
+<tr>
+<td class="stub2" >2006</td>
+<td nowrap>85,799</td><td nowrap>85,736</td><td nowrap>17,903</td><td nowrap>2,850</td><td nowrap>9,622</td><td nowrap>8,250</td><td nowrap>6,209</td><td nowrap>1,172</td><td nowrap>3,921</td><td nowrap>724</td><td nowrap>1,542</td><td nowrap>12,250</td><td nowrap>1,688</td><td nowrap>6,183</td><td nowrap>4,238</td><td nowrap>2,934</td><td nowrap>510</td><td nowrap>756</td><td nowrap>103</td><td nowrap>523</td><td nowrap>937</td><td nowrap>3,421</td><td nowrap>59</td><td nowrap>4</td>
+</tr>
+<tr>
+<td class="stub2" >2007</td>
+<td nowrap>86,148</td><td nowrap>86,083</td><td nowrap>18,644</td><td nowrap>3,175</td><td nowrap>11,127</td><td nowrap>7,609</td><td nowrap>6,131</td><td nowrap>1,060</td><td nowrap>4,298</td><td nowrap>728</td><td nowrap>1,025</td><td nowrap>12,088</td><td nowrap>1,663</td><td nowrap>5,482</td><td nowrap>4,051</td><td nowrap>3,029</td><td nowrap>504</td><td nowrap>667</td><td nowrap>62</td><td nowrap>574</td><td nowrap>822</td><td nowrap>3,344</td><td nowrap>60</td><td nowrap>5</td>
+</tr>
+<tr>
+<td class="stub2" >2008</td>
+<td nowrap>91,895</td><td nowrap>91,832</td><td nowrap>21,199</td><td nowrap>3,318</td><td nowrap>13,014</td><td nowrap>8,101</td><td nowrap>6,719</td><td nowrap>1,096</td><td nowrap>4,978</td><td nowrap>722</td><td nowrap>967</td><td nowrap>12,291</td><td nowrap>1,688</td><td nowrap>5,602</td><td nowrap>3,769</td><td nowrap>3,343</td><td nowrap>536</td><td nowrap>706</td><td nowrap>67</td><td nowrap>540</td><td nowrap>815</td><td nowrap>2,361</td><td nowrap>60</td><td nowrap>3</td>
+</tr>
+<tr>
+<td class="stub2" >2009</td>
+<td nowrap>95,605</td><td nowrap>95,558</td><td nowrap>23,360</td><td nowrap>3,722</td><td nowrap>15,433</td><td nowrap>7,487</td><td nowrap>7,225</td><td nowrap>982</td><td nowrap>5,101</td><td nowrap>764</td><td nowrap>944</td><td nowrap>12,474</td><td nowrap>1,729</td><td nowrap>4,887</td><td nowrap>3,763</td><td nowrap>3,260</td><td nowrap>538</td><td nowrap>692</td><td nowrap>91</td><td nowrap>463</td><td nowrap>852</td><td nowrap>1,791</td><td nowrap>44</td><td nowrap>3</td>
+</tr>
+<tr>
+<td class="stub2" >2010</td>
+<td nowrap>103,222</td><td nowrap>103,142</td><td nowrap>25,506</td><td nowrap>4,260</td><td nowrap>16,958</td><td nowrap>8,013</td><td nowrap>7,683</td><td nowrap>1,139</td><td nowrap>6,068</td><td nowrap>859</td><td nowrap>1,003</td><td nowrap>12,923</td><td nowrap>1,799</td><td nowrap>5,340</td><td nowrap>3,414</td><td nowrap>3,605</td><td nowrap>503</td><td nowrap>781</td><td nowrap>131</td><td nowrap>529</td><td nowrap>1,141</td><td nowrap>1,487</td><td nowrap>79</td><td nowrap>1</td>
+</tr>
+<tr>
+<td class="stub2" >2011</td>
+<td nowrap>107,414</td><td nowrap>107,329</td><td nowrap>24,054</td><td nowrap>4,591</td><td nowrap>18,758</td><td nowrap>8,281</td><td nowrap>7,587</td><td nowrap>1,088</td><td nowrap>6,765</td><td nowrap>961</td><td nowrap>1,081</td><td nowrap>14,062</td><td nowrap>1,964</td><td nowrap>6,058</td><td nowrap>3,336</td><td nowrap>4,005</td><td nowrap>503</td><td nowrap>1,046</td><td nowrap>124</td><td nowrap>544</td><td nowrap>1,133</td><td nowrap>1,388</td><td nowrap>85</td><td nowrap>-</td>
+</tr>
+<tr>
+<td class="stub2" >2012</td>
+<td nowrap>108,884</td><td nowrap>108,801</td><td nowrap>23,275</td><td nowrap>4,832</td><td nowrap>19,557</td><td nowrap>8,650</td><td nowrap>8,171</td><td nowrap>1,129</td><td nowrap>6,771</td><td nowrap>1,000</td><td nowrap>1,100</td><td nowrap>13,458</td><td nowrap>2,104</td><td nowrap>6,226</td><td nowrap>3,179</td><td nowrap>4,518</td><td nowrap>554</td><td nowrap>1,112</td><td nowrap>110</td><td nowrap>543</td><td nowrap>1,072</td><td nowrap>1,440</td><td nowrap>79</td><td nowrap>4</td>
+</tr>
+<tr>
+<td class="stub2" >2013</td>
+<td nowrap>108,060</td><td nowrap>107,964</td><td nowrap>21,669</td><td nowrap>4,869</td><td nowrap>19,589</td><td nowrap>8,317</td><td nowrap>8,035</td><td nowrap>1,274</td><td nowrap>7,157</td><td nowrap>1,025</td><td nowrap>1,146</td><td nowrap>13,329</td><td nowrap>2,051</td><td nowrap>6,613</td><td nowrap>3,120</td><td nowrap>4,534</td><td nowrap>561</td><td nowrap>1,237</td><td nowrap>87</td><td nowrap>569</td><td nowrap>1,021</td><td nowrap>1,761</td><td nowrap>93</td><td nowrap>3</td>
+</tr>
+<tr>
+<td class="stub1" rowspan="1" > 調解委員會調解結案件數</td>
+<td>&nbsp;</td>
+<td>&nbsp;</td>
+<td>&nbsp;</td>
+<td>&nbsp;</td>
+<td>&nbsp;</td>
+<td>&nbsp;</td>
+<td>&nbsp;</td>
+<td>&nbsp;</td>
+<td>&nbsp;</td>
+<td>&nbsp;</td>
+<td>&nbsp;</td>
+<td>&nbsp;</td>
+<td>&nbsp;</td>
+<td>&nbsp;</td>
+<td>&nbsp;</td>
+<td>&nbsp;</td>
+<td>&nbsp;</td>
+<td>&nbsp;</td>
+<td>&nbsp;</td>
+<td>&nbsp;</td>
+<td>&nbsp;</td>
+<td>&nbsp;</td>
+<td>&nbsp;</td>
+<td>&nbsp;</td>
+</tr>
+<tr>
+<td class="stub2" >1998</td>
+<td nowrap>85,631</td><td nowrap>85,529</td><td nowrap>12,391</td><td nowrap>4,602</td><td nowrap>7,423</td><td nowrap>7,344</td><td nowrap>8,442</td><td nowrap>2,111</td><td nowrap>5,264</td><td nowrap>1,235</td><td nowrap>2,201</td><td nowrap>8,957</td><td nowrap>2,568</td><td nowrap>7,513</td><td nowrap>3,183</td><td nowrap>4,930</td><td nowrap>913</td><td nowrap>1,434</td><td nowrap>217</td><td nowrap>1,068</td><td nowrap>963</td><td nowrap>2,770</td><td nowrap>83</td><td nowrap>19</td>
+</tr>
+<tr>
+<td class="stub2" >1999</td>
+<td nowrap>99,105</td><td nowrap>99,013</td><td nowrap>15,295</td><td nowrap>4,697</td><td nowrap>7,970</td><td nowrap>8,378</td><td nowrap>8,937</td><td nowrap>2,539</td><td nowrap>5,783</td><td nowrap>1,394</td><td nowrap>2,396</td><td nowrap>11,567</td><td nowrap>2,220</td><td nowrap>8,746</td><td nowrap>4,443</td><td nowrap>5,028</td><td nowrap>1,138</td><td nowrap>1,721</td><td nowrap>252</td><td nowrap>1,097</td><td nowrap>1,121</td><td nowrap>4,291</td><td nowrap>89</td><td nowrap>3</td>
+</tr>
+<tr>
+<td class="stub2" >2000</td>
+<td nowrap>98,301</td><td nowrap>98,202</td><td nowrap>15,031</td><td nowrap>5,525</td><td nowrap>7,943</td><td nowrap>7,084</td><td nowrap>8,378</td><td nowrap>2,001</td><td nowrap>6,334</td><td nowrap>1,207</td><td nowrap>2,259</td><td nowrap>11,588</td><td nowrap>2,592</td><td nowrap>9,058</td><td nowrap>4,647</td><td nowrap>4,832</td><td nowrap>914</td><td nowrap>1,540</td><td nowrap>275</td><td nowrap>858</td><td nowrap>1,033</td><td nowrap>5,103</td><td nowrap>97</td><td nowrap>2</td>
+</tr>
+<tr>
+<td class="stub2" >2001</td>
+<td nowrap>92,396</td><td nowrap>92,308</td><td nowrap>14,246</td><td nowrap>4,826</td><td nowrap>7,531</td><td nowrap>7,423</td><td nowrap>9,071</td><td nowrap>1,738</td><td nowrap>5,963</td><td nowrap>1,331</td><td nowrap>1,973</td><td nowrap>9,797</td><td nowrap>2,467</td><td nowrap>8,459</td><td nowrap>4,363</td><td nowrap>4,267</td><td nowrap>895</td><td nowrap>1,365</td><td nowrap>232</td><td nowrap>840</td><td nowrap>827</td><td nowrap>4,694</td><td nowrap>84</td><td nowrap>4</td>
+</tr>
+<tr>
+<td class="stub2" >2002</td>
+<td nowrap>90,811</td><td nowrap>90,702</td><td nowrap>14,040</td><td nowrap>5,357</td><td nowrap>7,727</td><td nowrap>7,493</td><td nowrap>9,670</td><td nowrap>1,527</td><td nowrap>5,170</td><td nowrap>1,326</td><td nowrap>2,131</td><td nowrap>9,300</td><td nowrap>2,655</td><td nowrap>7,509</td><td nowrap>4,553</td><td nowrap>4,164</td><td nowrap>803</td><td nowrap>1,406</td><td nowrap>216</td><td nowrap>668</td><td nowrap>915</td><td nowrap>4,072</td><td nowrap>98</td><td nowrap>11</td>
+</tr>
+<tr>
+<td class="stub2" >2003</td>
+<td nowrap>101,729</td><td nowrap>101,627</td><td nowrap>21,099</td><td nowrap>5,581</td><td nowrap>8,524</td><td nowrap>8,576</td><td nowrap>9,935</td><td nowrap>1,553</td><td nowrap>5,398</td><td nowrap>1,432</td><td nowrap>2,389</td><td nowrap>10,394</td><td nowrap>2,399</td><td nowrap>7,130</td><td nowrap>5,099</td><td nowrap>3,979</td><td nowrap>888</td><td nowrap>1,279</td><td nowrap>262</td><td nowrap>586</td><td nowrap>910</td><td nowrap>4,214</td><td nowrap>96</td><td nowrap>6</td>
+</tr>
+<tr>
+<td class="stub2" >2004</td>
+<td nowrap>102,541</td><td nowrap>102,462</td><td nowrap>23,297</td><td nowrap>3,909</td><td nowrap>9,342</td><td nowrap>9,562</td><td nowrap>8,897</td><td nowrap>1,435</td><td nowrap>5,206</td><td nowrap>1,303</td><td nowrap>2,168</td><td nowrap>11,533</td><td nowrap>2,466</td><td nowrap>7,066</td><td nowrap>4,877</td><td nowrap>3,869</td><td nowrap>875</td><td nowrap>1,116</td><td nowrap>188</td><td nowrap>685</td><td nowrap>976</td><td nowrap>3,692</td><td nowrap>76</td><td nowrap>3</td>
+</tr>
+<tr>
+<td class="stub2" >2005</td>
+<td nowrap>108,451</td><td nowrap>108,353</td><td nowrap>23,511</td><td nowrap>4,536</td><td nowrap>10,716</td><td nowrap>10,325</td><td nowrap>9,212</td><td nowrap>1,421</td><td nowrap>5,315</td><td nowrap>1,383</td><td nowrap>2,279</td><td nowrap>13,304</td><td nowrap>2,507</td><td nowrap>7,064</td><td nowrap>5,015</td><td nowrap>3,884</td><td nowrap>795</td><td nowrap>1,151</td><td nowrap>235</td><td nowrap>665</td><td nowrap>1,140</td><td nowrap>3,895</td><td nowrap>90</td><td nowrap>8</td>
+</tr>
+<tr>
+<td class="stub2" >2006</td>
+<td nowrap>111,840</td><td nowrap>111,724</td><td nowrap>23,383</td><td nowrap>5,091</td><td nowrap>11,802</td><td nowrap>10,410</td><td nowrap>9,298</td><td nowrap>1,609</td><td nowrap>5,910</td><td nowrap>1,182</td><td nowrap>2,243</td><td nowrap>13,834</td><td nowrap>2,407</td><td nowrap>7,387</td><td nowrap>4,982</td><td nowrap>4,297</td><td nowrap>778</td><td nowrap>1,220</td><td nowrap>249</td><td nowrap>673</td><td nowrap>1,109</td><td nowrap>3,860</td><td nowrap>106</td><td nowrap>10</td>
+</tr>
+<tr>
+<td class="stub2" >2007</td>
+<td nowrap>112,017</td><td nowrap>111,895</td><td nowrap>24,067</td><td nowrap>4,998</td><td nowrap>13,384</td><td nowrap>9,653</td><td nowrap>9,134</td><td nowrap>1,473</td><td nowrap>6,328</td><td nowrap>1,227</td><td nowrap>1,668</td><td nowrap>13,518</td><td nowrap>2,395</td><td nowrap>6,851</td><td nowrap>4,895</td><td nowrap>4,488</td><td nowrap>790</td><td nowrap>1,277</td><td nowrap>218</td><td nowrap>694</td><td nowrap>997</td><td nowrap>3,840</td><td nowrap>112</td><td nowrap>10</td>
+</tr>
+<tr>
+<td class="stub2" >2008</td>
+<td nowrap>117,972</td><td nowrap>117,856</td><td nowrap>27,466</td><td nowrap>5,113</td><td nowrap>15,160</td><td nowrap>10,105</td><td nowrap>9,686</td><td nowrap>1,566</td><td nowrap>6,876</td><td nowrap>1,282</td><td nowrap>1,588</td><td nowrap>13,715</td><td nowrap>2,451</td><td nowrap>6,876</td><td nowrap>4,575</td><td nowrap>4,648</td><td nowrap>828</td><td nowrap>1,253</td><td nowrap>186</td><td nowrap>655</td><td nowrap>1,012</td><td nowrap>2,815</td><td nowrap>109</td><td nowrap>7</td>
+</tr>
+<tr>
+<td class="stub2" >2009</td>
+<td nowrap>124,806</td><td nowrap>124,701</td><td nowrap>31,318</td><td nowrap>5,887</td><td nowrap>17,725</td><td nowrap>9,422</td><td nowrap>10,294</td><td nowrap>1,411</td><td nowrap>6,962</td><td nowrap>1,351</td><td nowrap>1,656</td><td nowrap>14,138</td><td nowrap>2,445</td><td nowrap>6,320</td><td nowrap>4,639</td><td nowrap>4,863</td><td nowrap>873</td><td nowrap>1,236</td><td nowrap>213</td><td nowrap>582</td><td nowrap>1,018</td><td nowrap>2,348</td><td nowrap>96</td><td nowrap>9</td>
+</tr>
+<tr>
+<td class="stub2" >2010</td>
+<td nowrap>132,687</td><td nowrap>132,536</td><td nowrap>32,559</td><td nowrap>6,331</td><td nowrap>19,271</td><td nowrap>10,140</td><td nowrap>11,229</td><td nowrap>1,566</td><td nowrap>8,321</td><td nowrap>1,498</td><td nowrap>1,702</td><td nowrap>14,352</td><td nowrap>2,568</td><td nowrap>6,636</td><td nowrap>4,240</td><td nowrap>5,615</td><td nowrap>788</td><td nowrap>1,420</td><td nowrap>291</td><td nowrap>653</td><td nowrap>1,367</td><td nowrap>1,989</td><td nowrap>146</td><td nowrap>5</td>
+</tr>
+<tr>
+<td class="stub2" >2011</td>
+<td nowrap>137,984</td><td nowrap>137,853</td><td nowrap>31,844</td><td nowrap>6,502</td><td nowrap>21,233</td><td nowrap>10,413</td><td nowrap>11,384</td><td nowrap>1,586</td><td nowrap>8,901</td><td nowrap>1,587</td><td nowrap>1,869</td><td nowrap>15,513</td><td nowrap>2,722</td><td nowrap>7,429</td><td nowrap>4,181</td><td nowrap>6,048</td><td nowrap>838</td><td nowrap>1,720</td><td nowrap>253</td><td nowrap>680</td><td nowrap>1,368</td><td nowrap>1,782</td><td nowrap>129</td><td nowrap>2</td>
+</tr>
+<tr>
+<td class="stub2" >2012</td>
+<td nowrap>139,622</td><td nowrap>139,440</td><td nowrap>31,335</td><td nowrap>6,780</td><td nowrap>21,954</td><td nowrap>10,540</td><td nowrap>12,016</td><td nowrap>1,560</td><td nowrap>8,961</td><td nowrap>1,529</td><td nowrap>1,821</td><td nowrap>14,724</td><td nowrap>2,893</td><td nowrap>7,968</td><td nowrap>4,090</td><td nowrap>6,443</td><td nowrap>892</td><td nowrap>1,720</td><td nowrap>262</td><td nowrap>682</td><td nowrap>1,324</td><td nowrap>1,946</td><td nowrap>166</td><td nowrap>16</td>
+</tr>
+<tr>
+<td class="stub2" >2013</td>
+<td nowrap>138,785</td><td nowrap>138,592</td><td nowrap>30,060</td><td nowrap>6,846</td><td nowrap>21,759</td><td nowrap>10,195</td><td nowrap>11,890</td><td nowrap>1,680</td><td nowrap>9,311</td><td nowrap>1,530</td><td nowrap>1,845</td><td nowrap>14,669</td><td nowrap>2,862</td><td nowrap>8,187</td><td nowrap>4,008</td><td nowrap>6,361</td><td nowrap>859</td><td nowrap>1,877</td><td nowrap>227</td><td nowrap>711</td><td nowrap>1,305</td><td nowrap>2,410</td><td nowrap>184</td><td nowrap>9</td>
+</tr>
+<tr>
+<td class="stub1" rowspan="1" > 調解委員會受理調解案件調解成立比率</td>
+<td>&nbsp;</td>
+<td>&nbsp;</td>
+<td>&nbsp;</td>
+<td>&nbsp;</td>
+<td>&nbsp;</td>
+<td>&nbsp;</td>
+<td>&nbsp;</td>
+<td>&nbsp;</td>
+<td>&nbsp;</td>
+<td>&nbsp;</td>
+<td>&nbsp;</td>
+<td>&nbsp;</td>
+<td>&nbsp;</td>
+<td>&nbsp;</td>
+<td>&nbsp;</td>
+<td>&nbsp;</td>
+<td>&nbsp;</td>
+<td>&nbsp;</td>
+<td>&nbsp;</td>
+<td>&nbsp;</td>
+<td>&nbsp;</td>
+<td>&nbsp;</td>
+<td>&nbsp;</td>
+<td>&nbsp;</td>
+</tr>
+<tr>
+<td class="stub2" >1998</td>
+<td nowrap>71.57</td><td nowrap>71.60</td><td nowrap>69.11</td><td nowrap>42.89</td><td nowrap>73.70</td><td nowrap>73.92</td><td nowrap>62.73</td><td nowrap>64.57</td><td nowrap>72.61</td><td nowrap>62.19</td><td nowrap>67.83</td><td nowrap>85.13</td><td nowrap>70.29</td><td nowrap>83.46</td><td nowrap>79.74</td><td nowrap>62.49</td><td nowrap>54.33</td><td nowrap>60.53</td><td nowrap>47.47</td><td nowrap>83.61</td><td nowrap>81.00</td><td nowrap>93.75</td><td nowrap>50.60</td><td nowrap>26.32</td>
+</tr>
+<tr>
+<td class="stub2" >1999</td>
+<td nowrap>74.18</td><td nowrap>74.18</td><td nowrap>72.44</td><td nowrap>42.01</td><td nowrap>72.66</td><td nowrap>75.87</td><td nowrap>61.87</td><td nowrap>69.59</td><td nowrap>75.15</td><td nowrap>58.25</td><td nowrap>70.62</td><td nowrap>87.74</td><td nowrap>73.11</td><td nowrap>85.10</td><td nowrap>86.56</td><td nowrap>64.38</td><td nowrap>55.71</td><td nowrap>66.12</td><td nowrap>46.03</td><td nowrap>81.49</td><td nowrap>84.57</td><td nowrap>95.06</td><td nowrap>66.29</td><td nowrap>66.67</td>
+</tr>
+<tr>
+<td class="stub2" >2000</td>
+<td nowrap>73.80</td><td nowrap>73.82</td><td nowrap>73.17</td><td nowrap>38.52</td><td nowrap>74.08</td><td nowrap>74.97</td><td nowrap>61.61</td><td nowrap>66.02</td><td nowrap>69.21</td><td nowrap>58.16</td><td nowrap>65.43</td><td nowrap>88.04</td><td nowrap>71.60</td><td nowrap>86.76</td><td nowrap>86.36</td><td nowrap>66.31</td><td nowrap>57.44</td><td nowrap>63.96</td><td nowrap>39.27</td><td nowrap>75.99</td><td nowrap>81.90</td><td nowrap>95.51</td><td nowrap>51.55</td><td nowrap>100.00</td>
+</tr>
+<tr>
+<td class="stub2" >2001</td>
+<td nowrap>72.85</td><td nowrap>72.86</td><td nowrap>71.27</td><td nowrap>41.50</td><td nowrap>71.93</td><td nowrap>75.04</td><td nowrap>58.78</td><td nowrap>68.53</td><td nowrap>68.54</td><td nowrap>60.11</td><td nowrap>54.49</td><td nowrap>87.55</td><td nowrap>79.45</td><td nowrap>86.32</td><td nowrap>86.04</td><td nowrap>63.07</td><td nowrap>58.88</td><td nowrap>64.98</td><td nowrap>39.22</td><td nowrap>76.55</td><td nowrap>87.18</td><td nowrap>95.36</td><td nowrap>59.52</td><td nowrap>25.00</td>
+</tr>
+<tr>
+<td class="stub2" >2002</td>
+<td nowrap>70.71</td><td nowrap>70.74</td><td nowrap>69.49</td><td nowrap>40.56</td><td nowrap>72.37</td><td nowrap>72.35</td><td nowrap>56.84</td><td nowrap>66.21</td><td nowrap>68.28</td><td nowrap>56.33</td><td nowrap>62.93</td><td nowrap>86.43</td><td nowrap>69.76</td><td nowrap>84.42</td><td nowrap>84.54</td><td nowrap>62.78</td><td nowrap>53.55</td><td nowrap>54.77</td><td nowrap>37.96</td><td nowrap>73.65</td><td nowrap>86.23</td><td nowrap>94.43</td><td nowrap>41.84</td><td nowrap>36.36</td>
+</tr>
+<tr>
+<td class="stub2" >2003</td>
+<td nowrap>74.23</td><td nowrap>74.26</td><td nowrap>79.74</td><td nowrap>42.63</td><td nowrap>71.36</td><td nowrap>80.20</td><td nowrap>60.69</td><td nowrap>64.20</td><td nowrap>66.49</td><td nowrap>52.58</td><td nowrap>62.70</td><td nowrap>87.24</td><td nowrap>75.28</td><td nowrap>84.33</td><td nowrap>85.47</td><td nowrap>69.24</td><td nowrap>59.12</td><td nowrap>57.00</td><td nowrap>41.98</td><td nowrap>70.82</td><td nowrap>85.38</td><td nowrap>92.00</td><td nowrap>48.96</td><td nowrap>16.67</td>
+</tr>
+<tr>
+<td class="stub2" >2004</td>
+<td nowrap>78.61</td><td nowrap>78.62</td><td nowrap>82.63</td><td nowrap>60.22</td><td nowrap>78.90</td><td nowrap>81.81</td><td nowrap>67.07</td><td nowrap>69.97</td><td nowrap>70.13</td><td nowrap>53.72</td><td nowrap>67.20</td><td nowrap>87.90</td><td nowrap>75.34</td><td nowrap>84.81</td><td nowrap>88.27</td><td nowrap>70.69</td><td nowrap>60.80</td><td nowrap>55.38</td><td nowrap>37.23</td><td nowrap>79.12</td><td nowrap>86.37</td><td nowrap>90.57</td><td nowrap>61.84</td><td nowrap>33.33</td>
+</tr>
+<tr>
+<td class="stub2" >2005</td>
+<td nowrap>77.55</td><td nowrap>77.56</td><td nowrap>78.83</td><td nowrap>57.58</td><td nowrap>81.58</td><td nowrap>80.15</td><td nowrap>66.02</td><td nowrap>75.44</td><td nowrap>63.09</td><td nowrap>60.59</td><td nowrap>66.87</td><td nowrap>89.19</td><td nowrap>71.84</td><td nowrap>83.64</td><td nowrap>86.74</td><td nowrap>70.57</td><td nowrap>63.02</td><td nowrap>58.04</td><td nowrap>43.83</td><td nowrap>81.20</td><td nowrap>85.79</td><td nowrap>91.14</td><td nowrap>75.56</td><td nowrap>25.00</td>
+</tr>
+<tr>
+<td class="stub2" >2006</td>
+<td nowrap>76.72</td><td nowrap>76.74</td><td nowrap>76.56</td><td nowrap>55.98</td><td nowrap>81.53</td><td nowrap>79.25</td><td nowrap>66.78</td><td nowrap>72.84</td><td nowrap>66.35</td><td nowrap>61.25</td><td nowrap>68.75</td><td nowrap>88.55</td><td nowrap>70.13</td><td nowrap>83.70</td><td nowrap>85.07</td><td nowrap>68.28</td><td nowrap>65.55</td><td nowrap>61.97</td><td nowrap>41.37</td><td nowrap>77.71</td><td nowrap>84.49</td><td nowrap>88.63</td><td nowrap>55.66</td><td nowrap>40.00</td>
+</tr>
+<tr>
+<td class="stub2" >2007</td>
+<td nowrap>76.91</td><td nowrap>76.93</td><td nowrap>77.47</td><td nowrap>63.53</td><td nowrap>83.14</td><td nowrap>78.83</td><td nowrap>67.12</td><td nowrap>71.96</td><td nowrap>67.92</td><td nowrap>59.33</td><td nowrap>61.45</td><td nowrap>89.42</td><td nowrap>69.44</td><td nowrap>80.02</td><td nowrap>82.76</td><td nowrap>67.49</td><td nowrap>63.80</td><td nowrap>52.23</td><td nowrap>28.44</td><td nowrap>82.71</td><td nowrap>82.45</td><td nowrap>87.08</td><td nowrap>53.57</td><td nowrap>50.00</td>
+</tr>
+<tr>
+<td class="stub2" >2008</td>
+<td nowrap>77.90</td><td nowrap>77.92</td><td nowrap>77.18</td><td nowrap>64.89</td><td nowrap>85.84</td><td nowrap>80.17</td><td nowrap>69.37</td><td nowrap>69.99</td><td nowrap>72.40</td><td nowrap>56.32</td><td nowrap>60.89</td><td nowrap>89.62</td><td nowrap>68.87</td><td nowrap>81.47</td><td nowrap>82.38</td><td nowrap>71.92</td><td nowrap>64.73</td><td nowrap>56.34</td><td nowrap>36.02</td><td nowrap>82.44</td><td nowrap>80.53</td><td nowrap>83.87</td><td nowrap>55.05</td><td nowrap>42.86</td>
+</tr>
+<tr>
+<td class="stub2" >2009</td>
+<td nowrap>76.60</td><td nowrap>76.63</td><td nowrap>74.59</td><td nowrap>63.22</td><td nowrap>87.07</td><td nowrap>79.46</td><td nowrap>70.19</td><td nowrap>69.60</td><td nowrap>73.27</td><td nowrap>56.55</td><td nowrap>57.00</td><td nowrap>88.23</td><td nowrap>70.72</td><td nowrap>77.33</td><td nowrap>81.12</td><td nowrap>67.04</td><td nowrap>61.63</td><td nowrap>55.99</td><td nowrap>42.72</td><td nowrap>79.55</td><td nowrap>83.69</td><td nowrap>76.28</td><td nowrap>45.83</td><td nowrap>33.33</td>
+</tr>
+<tr>
+<td class="stub2" >2010</td>
+<td nowrap>77.79</td><td nowrap>77.82</td><td nowrap>78.34</td><td nowrap>67.29</td><td nowrap>88.00</td><td nowrap>79.02</td><td nowrap>68.42</td><td nowrap>72.73</td><td nowrap>72.92</td><td nowrap>57.34</td><td nowrap>58.93</td><td nowrap>90.04</td><td nowrap>70.05</td><td nowrap>80.47</td><td nowrap>80.52</td><td nowrap>64.20</td><td nowrap>63.83</td><td nowrap>55.00</td><td nowrap>45.02</td><td nowrap>81.01</td><td nowrap>83.47</td><td nowrap>74.76</td><td nowrap>54.11</td><td nowrap>20.00</td>
+</tr>
+<tr>
+<td class="stub2" >2011</td>
+<td nowrap>77.85</td><td nowrap>77.86</td><td nowrap>75.54</td><td nowrap>70.61</td><td nowrap>88.34</td><td nowrap>79.53</td><td nowrap>66.65</td><td nowrap>68.60</td><td nowrap>76.00</td><td nowrap>60.55</td><td nowrap>57.84</td><td nowrap>90.65</td><td nowrap>72.15</td><td nowrap>81.55</td><td nowrap>79.79</td><td nowrap>66.22</td><td nowrap>60.02</td><td nowrap>60.81</td><td nowrap>49.01</td><td nowrap>80.00</td><td nowrap>82.82</td><td nowrap>77.89</td><td nowrap>65.89</td><td nowrap>-</td>
+</tr>
+<tr>
+<td class="stub2" >2012</td>
+<td nowrap>77.98</td><td nowrap>78.03</td><td nowrap>74.28</td><td nowrap>71.27</td><td nowrap>89.08</td><td nowrap>82.07</td><td nowrap>68.00</td><td nowrap>72.37</td><td nowrap>75.56</td><td nowrap>65.40</td><td nowrap>60.41</td><td nowrap>91.40</td><td nowrap>72.73</td><td nowrap>78.14</td><td nowrap>77.73</td><td nowrap>70.12</td><td nowrap>62.11</td><td nowrap>64.65</td><td nowrap>41.98</td><td nowrap>79.62</td><td nowrap>80.97</td><td nowrap>74.00</td><td nowrap>47.59</td><td nowrap>25.00</td>
+</tr>
+<tr>
+<td class="stub2" >2013</td>
+<td nowrap>77.86</td><td nowrap>77.90</td><td nowrap>72.09</td><td nowrap>71.12</td><td nowrap>90.03</td><td nowrap>81.58</td><td nowrap>67.58</td><td nowrap>75.83</td><td nowrap>76.87</td><td nowrap>66.99</td><td nowrap>62.11</td><td nowrap>90.87</td><td nowrap>71.66</td><td nowrap>80.77</td><td nowrap>77.84</td><td nowrap>71.28</td><td nowrap>65.31</td><td nowrap>65.90</td><td nowrap>38.33</td><td nowrap>80.03</td><td nowrap>78.24</td><td nowrap>73.07</td><td nowrap>50.54</td><td nowrap>33.33</td>
+</tr>
+<tr>
+<td class="stub1" rowspan="1" > 平均每一公教人員服務人口數</td>
+<td>&nbsp;</td>
+<td>&nbsp;</td>
+<td>&nbsp;</td>
+<td>&nbsp;</td>
+<td>&nbsp;</td>
+<td>&nbsp;</td>
+<td>&nbsp;</td>
+<td>&nbsp;</td>
+<td>&nbsp;</td>
+<td>&nbsp;</td>
+<td>&nbsp;</td>
+<td>&nbsp;</td>
+<td>&nbsp;</td>
+<td>&nbsp;</td>
+<td>&nbsp;</td>
+<td>&nbsp;</td>
+<td>&nbsp;</td>
+<td>&nbsp;</td>
+<td>&nbsp;</td>
+<td>&nbsp;</td>
+<td>&nbsp;</td>
+<td>&nbsp;</td>
+<td>&nbsp;</td>
+<td>&nbsp;</td>
+</tr>
+<tr>
+<td class="stub2" >1998</td>
+<td nowrap>74.75</td><td nowrap>75.02</td><td nowrap>98.84</td><td nowrap>46.37</td><td nowrap>93.78</td><td nowrap>84.45</td><td nowrap>68.59</td><td nowrap>70.41</td><td nowrap>100.22</td><td nowrap>75.28</td><td nowrap>78.05</td><td nowrap>87.15</td><td nowrap>65.89</td><td nowrap>80.88</td><td nowrap>74.98</td><td nowrap>77.32</td><td nowrap>48.83</td><td nowrap>62.05</td><td nowrap>33.26</td><td nowrap>77.45</td><td nowrap>85.10</td><td nowrap>89.02</td><td nowrap>36.37</td><td nowrap>15.16</td>
+</tr>
+<tr>
+<td class="stub2" >1999</td>
+<td nowrap>74.77</td><td nowrap>75.01</td><td nowrap>99.47</td><td nowrap>48.49</td><td nowrap>88.65</td><td nowrap>83.29</td><td nowrap>69.63</td><td nowrap>69.79</td><td nowrap>94.30</td><td nowrap>72.88</td><td nowrap>80.62</td><td nowrap>85.60</td><td nowrap>65.25</td><td nowrap>82.76</td><td nowrap>74.92</td><td nowrap>75.67</td><td nowrap>47.73</td><td nowrap>63.85</td><td nowrap>32.64</td><td nowrap>76.98</td><td nowrap>82.71</td><td nowrap>80.17</td><td nowrap>35.31</td><td nowrap>23.60</td>
+</tr>
+<tr>
+<td class="stub2" >2000</td>
+<td nowrap>73.79</td><td nowrap>74.07</td><td nowrap>97.40</td><td nowrap>48.31</td><td nowrap>88.65</td><td nowrap>82.85</td><td nowrap>69.24</td><td nowrap>68.58</td><td nowrap>89.77</td><td nowrap>70.80</td><td nowrap>76.71</td><td nowrap>84.10</td><td nowrap>68.27</td><td nowrap>79.50</td><td nowrap>73.63</td><td nowrap>74.94</td><td nowrap>47.24</td><td nowrap>59.63</td><td nowrap>32.29</td><td nowrap>74.70</td><td nowrap>82.31</td><td nowrap>78.43</td><td nowrap>35.91</td><td nowrap>13.97</td>
+</tr>
+<tr>
+<td class="stub2" >2001</td>
+<td nowrap>71.54</td><td nowrap>71.80</td><td nowrap>92.57</td><td nowrap>47.83</td><td nowrap>82.27</td><td nowrap>80.85</td><td nowrap>68.63</td><td nowrap>66.27</td><td nowrap>85.86</td><td nowrap>68.96</td><td nowrap>73.49</td><td nowrap>81.71</td><td nowrap>64.31</td><td nowrap>78.04</td><td nowrap>71.26</td><td nowrap>73.11</td><td nowrap>46.50</td><td nowrap>56.83</td><td nowrap>32.84</td><td nowrap>72.36</td><td nowrap>76.92</td><td nowrap>74.22</td><td nowrap>37.47</td><td nowrap>16.64</td>
+</tr>
+<tr>
+<td class="stub2" >2002</td>
+<td nowrap>70.76</td><td nowrap>70.99</td><td nowrap>91.27</td><td nowrap>49.14</td><td nowrap>80.89</td><td nowrap>80.12</td><td nowrap>68.30</td><td nowrap>64.04</td><td nowrap>83.66</td><td nowrap>66.89</td><td nowrap>70.01</td><td nowrap>80.45</td><td nowrap>63.24</td><td nowrap>75.44</td><td nowrap>68.88</td><td nowrap>71.22</td><td nowrap>46.01</td><td nowrap>53.75</td><td nowrap>32.74</td><td nowrap>67.83</td><td nowrap>75.08</td><td nowrap>71.48</td><td nowrap>38.22</td><td nowrap>20.86</td>
+</tr>
+<tr>
+<td class="stub2" >2003</td>
+<td nowrap>70.87</td><td nowrap>71.09</td><td nowrap>92.82</td><td nowrap>48.09</td><td nowrap>80.54</td><td nowrap>80.99</td><td nowrap>68.80</td><td nowrap>63.99</td><td nowrap>85.41</td><td nowrap>66.96</td><td nowrap>69.98</td><td nowrap>80.28</td><td nowrap>62.37</td><td nowrap>74.85</td><td nowrap>68.43</td><td nowrap>71.43</td><td nowrap>46.05</td><td nowrap>54.45</td><td nowrap>32.78</td><td nowrap>67.66</td><td nowrap>74.28</td><td nowrap>71.57</td><td nowrap>39.68</td><td nowrap>21.12</td>
+</tr>
+<tr>
+<td class="stub2" >2004</td>
+<td nowrap>71.59</td><td nowrap>71.81</td><td nowrap>94.98</td><td nowrap>49.25</td><td nowrap>80.94</td><td nowrap>81.79</td><td nowrap>68.81</td><td nowrap>63.84</td><td nowrap>86.24</td><td nowrap>66.84</td><td nowrap>70.05</td><td nowrap>81.04</td><td nowrap>62.61</td><td nowrap>75.51</td><td nowrap>68.29</td><td nowrap>71.59</td><td nowrap>45.20</td><td nowrap>54.66</td><td nowrap>32.46</td><td nowrap>67.32</td><td nowrap>74.17</td><td nowrap>71.44</td><td nowrap>42.63</td><td nowrap>19.30</td>
+</tr>
+<tr>
+<td class="stub2" >2005</td>
+<td nowrap>72.60</td><td nowrap>72.81</td><td nowrap>97.37</td><td nowrap>49.58</td><td nowrap>81.91</td><td nowrap>82.34</td><td nowrap>69.28</td><td nowrap>64.88</td><td nowrap>87.23</td><td nowrap>68.72</td><td nowrap>71.05</td><td nowrap>82.37</td><td nowrap>63.75</td><td nowrap>76.98</td><td nowrap>69.34</td><td nowrap>73.47</td><td nowrap>45.13</td><td nowrap>54.57</td><td nowrap>33.21</td><td nowrap>68.56</td><td nowrap>75.57</td><td nowrap>72.43</td><td nowrap>47.35</td><td nowrap>19.19</td>
+</tr>
+<tr>
+<td class="stub2" >2006</td>
+<td nowrap>72.85</td><td nowrap>73.05</td><td nowrap>96.81</td><td nowrap>50.53</td><td nowrap>80.69</td><td nowrap>83.09</td><td nowrap>69.60</td><td nowrap>65.35</td><td nowrap>85.79</td><td nowrap>70.73</td><td nowrap>71.21</td><td nowrap>82.49</td><td nowrap>63.64</td><td nowrap>77.15</td><td nowrap>70.20</td><td nowrap>73.72</td><td nowrap>44.97</td><td nowrap>54.76</td><td nowrap>33.45</td><td nowrap>69.21</td><td nowrap>75.61</td><td nowrap>72.73</td><td nowrap>50.56</td><td nowrap>18.02</td>
+</tr>
+<tr>
+<td class="stub2" >2007</td>
+<td nowrap>73.13</td><td nowrap>73.32</td><td nowrap>97.62</td><td nowrap>50.94</td><td nowrap>80.42</td><td nowrap>83.30</td><td nowrap>69.65</td><td nowrap>65.85</td><td nowrap>86.17</td><td nowrap>70.92</td><td nowrap>71.29</td><td nowrap>82.94</td><td nowrap>63.80</td><td nowrap>76.70</td><td nowrap>70.63</td><td nowrap>73.25</td><td nowrap>44.88</td><td nowrap>54.67</td><td nowrap>33.54</td><td nowrap>69.34</td><td nowrap>75.95</td><td nowrap>72.72</td><td nowrap>53.54</td><td nowrap>18.28</td>
+</tr>
+<tr>
+<td class="stub2" >2008</td>
+<td nowrap>72.95</td><td nowrap>73.14</td><td nowrap>96.88</td><td nowrap>50.68</td><td nowrap>80.51</td><td nowrap>83.51</td><td nowrap>69.81</td><td nowrap>65.15</td><td nowrap>86.32</td><td nowrap>71.57</td><td nowrap>71.02</td><td nowrap>82.48</td><td nowrap>63.36</td><td nowrap>75.09</td><td nowrap>69.57</td><td nowrap>71.79</td><td nowrap>44.34</td><td nowrap>54.45</td><td nowrap>34.20</td><td nowrap>70.11</td><td nowrap>76.33</td><td nowrap>73.56</td><td nowrap>54.11</td><td nowrap>17.33</td>
+</tr>
+<tr>
+<td class="stub2" >2009</td>
+<td nowrap>72.87</td><td nowrap>73.04</td><td nowrap>95.59</td><td nowrap>50.49</td><td nowrap>80.59</td><td nowrap>83.50</td><td nowrap>70.16</td><td nowrap>65.38</td><td nowrap>86.38</td><td nowrap>71.68</td><td nowrap>71.18</td><td nowrap>82.31</td><td nowrap>63.25</td><td nowrap>74.13</td><td nowrap>68.16</td><td nowrap>71.19</td><td nowrap>44.25</td><td nowrap>54.79</td><td nowrap>35.37</td><td nowrap>69.67</td><td nowrap>77.92</td><td nowrap>73.32</td><td nowrap>59.41</td><td nowrap>17.71</td>
+</tr>
+<tr>
+<td class="stub2" >2010</td>
+<td nowrap>72.94</td><td nowrap>73.09</td><td nowrap>93.99</td><td nowrap>50.94</td><td nowrap>80.93</td><td nowrap>83.78</td><td nowrap>70.53</td><td nowrap>65.48</td><td nowrap>86.83</td><td nowrap>71.45</td><td nowrap>70.77</td><td nowrap>82.34</td><td nowrap>63.30</td><td nowrap>73.93</td><td nowrap>67.69</td><td nowrap>71.02</td><td nowrap>43.70</td><td nowrap>54.62</td><td nowrap>35.48</td><td nowrap>69.73</td><td nowrap>78.46</td><td nowrap>73.52</td><td nowrap>61.51</td><td nowrap>17.88</td>
+</tr>
+<tr>
+<td class="stub2" >2011</td>
+<td nowrap>74.02</td><td nowrap>74.17</td><td nowrap>94.62</td><td nowrap>54.29</td><td nowrap>80.60</td><td nowrap>84.31</td><td nowrap>71.56</td><td nowrap>65.88</td><td nowrap>86.75</td><td nowrap>72.57</td><td nowrap>70.63</td><td nowrap>83.19</td><td nowrap>63.83</td><td nowrap>73.94</td><td nowrap>67.79</td><td nowrap>71.03</td><td nowrap>43.25</td><td nowrap>55.20</td><td nowrap>36.47</td><td nowrap>70.29</td><td nowrap>79.30</td><td nowrap>73.94</td><td nowrap>65.96</td><td nowrap>17.82</td>
+</tr>
+<tr>
+<td class="stub2" >2012</td>
+<td nowrap>74.32</td><td nowrap>74.43</td><td nowrap>94.41</td><td nowrap>55.41</td><td nowrap>80.52</td><td nowrap>84.34</td><td nowrap>71.84</td><td nowrap>65.84</td><td nowrap>85.88</td><td nowrap>73.77</td><td nowrap>70.83</td><td nowrap>82.77</td><td nowrap>64.20</td><td nowrap>74.54</td><td nowrap>67.74</td><td nowrap>70.92</td><td nowrap>43.04</td><td nowrap>55.08</td><td nowrap>37.64</td><td nowrap>71.51</td><td nowrap>79.13</td><td nowrap>73.76</td><td nowrap>72.14</td><td nowrap>20.12</td>
+</tr>
+<tr>
+<td class="stub2" >2013</td>
+<td nowrap>73.91</td><td nowrap>74.00</td><td nowrap>89.44</td><td nowrap>56.10</td><td nowrap>80.66</td><td nowrap>84.69</td><td nowrap>71.95</td><td nowrap>66.10</td><td nowrap>84.97</td><td nowrap>73.07</td><td nowrap>70.09</td><td nowrap>82.65</td><td nowrap>64.21</td><td nowrap>74.80</td><td nowrap>67.86</td><td nowrap>71.02</td><td nowrap>42.58</td><td nowrap>55.46</td><td nowrap>38.54</td><td nowrap>72.35</td><td nowrap>77.78</td><td nowrap>73.31</td><td nowrap>75.30</td><td nowrap>21.76</td>
+</tr>
+<tr>
+<td class="footnote" colspan="25"><B>註解：</B><BR>
+------------------------------<BR>指標項：違反戶籍法令件數：(件)<BR>定義：依據「戶籍法」及「戶籍法施行細則」之規定執行案件中，違反戶籍法令之件<BR>       數，計分：1. 逾期申報出生登記。2.逾期申報死亡登記。3. 逾期申<BR>       報認領登記。4.逾期申報收養(終止收養)登記。5.逾期申報結（離）婚<BR>       。6.逾期申報監護登記。7. 虛報遷入（出）登記。8.逾期申報遷入（<BR>       出）登記。9.逾期申報初設戶籍登記。10. 無戶籍人口。11. 重複<BR>       戶籍。12.未接受戶籍校正。13. 其他逾期申報戶籍事項變更登記。<BR>       <BR>------------------------------<BR>指標項：平均每百萬人違反戶籍法令件數：(件／百萬人)<BR>定義：平均每百萬人違反戶籍法令件數<BR>公式：(違反戶籍法令件數／年中人口數)*1,000,000<BR>●違反戶籍法令件數(件）<BR>     依據「戶籍法」及「戶籍法施行細則」之規定執行案件中，違反戶籍法令之件<BR>       數，計分：1. 逾期申報出生登記。2.逾期申報死亡登記。3. 逾期申<BR>       報認領登記。4.逾期申報收養(終止收養)登記。5.逾期申報結（離）婚<BR>       。6.逾期申報監護登記。7. 虛報遷入（出）登記。8.逾期申報遷入（<BR>       出）登記。9.逾期申報初設戶籍登記。10. 無戶籍人口。11. 重複<BR>       戶籍。12.未接受戶籍校正。13. 其他逾期申報戶籍事項變更登記。<BR>       (資料來源：內政部)<BR>●年中人口數(人）<BR>     (上年年底人口數+本年年底人口數)/2(資料來源：內政部)<BR>------------------------------<BR>指標項：調解委員會調解成立案件數：(件)<BR>定義：經調解成立時，由調解委員會作成調解書，送請管轄法院審核之件數；指當期<BR>       調解成立之件數。<BR>------------------------------<BR>指標項：調解委員會調解結案件數：(件)<BR>定義：凡依據鄉鎮市調解條例之當期執行調解結案案件數；包括成立與不成立，其中<BR>       不成立指一次或多次調解未達成協議不再調解之當期結案之件數。<BR>------------------------------<BR>指標項：調解委員會受理調解案件調解成立比率：(％)<BR>定義：指調解成立件數占調解受理件數之百分比。<BR>公式：(調解委員會調解成立案件數／調解委員會調解案件數)*100<BR>------------------------------<BR>指標項：平均每一公教人員服務人口數：(人)<BR>定義：平均每一公教人員服務人口數。<BR>公式：(戶籍登記人口數／公教人員人數)<BR>●戶籍登記人口數(人）<BR>     指在某地區設有戶籍之中華民國國民，於統計標準日不論其是否住在戶內，均<BR>       為該地區之人口數。(資料來源：內政部)<BR>●公教人員人數(人）<BR>     含各縣市所屬機關、學校、公營事業機構正式編制內職(教)員數。(資料來源：行政院人事行政總處)<BR><br><br>單位： 請看項目<br><br>統計單元：<br>CS3101A1A
+</td>
+</tr>
+</table>
+</body></html>

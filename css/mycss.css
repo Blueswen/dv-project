@@ -1,0 +1,54 @@
+label{
+	display: block;
+	font-size: 1em;
+	font-weight: 900;
+}
+#map{
+	width: 600px;
+	height: 600px;
+	border: 1px solid;
+	border-radius: 5px;
+	margin: 10px;
+	float: left;
+}
+#map path{
+	stroke-width:1;
+	stroke:black;
+}
+#map path:hover {
+	stroke-width:4;
+	stroke:blue;
+}
+
+/* line chart */
+#linechart{
+	float: left;
+	height: 600px;
+	width: 600px;
+	text-align: center;
+}
+
+/* time slider */
+.steps { 
+    border: 1px solid transparent; /*follows #slider2 style for sizing purposes */
+    width: 1100px;
+    position: relative;
+    height: 30px;
+}
+#slider {
+	width:1100px;
+}
+
+/* time slider */
+.tick {
+    border: 1px solid transparent; /*follows slide handle style for sizing purposes*/
+    position: absolute;
+    width: 1.2em;
+    margin-left: -.6em;
+    text-align:center;
+    left: 0;
+}
+
+.qtip {
+	font-size: 1.2em;
+}
